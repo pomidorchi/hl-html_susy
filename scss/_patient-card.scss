@@ -21,7 +21,7 @@
 }
 
 .patient-card__navigation {
-    @include span-columns(8 omega, 48);
+    @include span-columns(8, 48);
     @include suffix(1);
 
     position:fixed;
@@ -30,6 +30,7 @@
         display:block;
         padding:$padding / 2 0 $padding / 2 $padding / 4;
         font-weight:bold;
+        width:182px;
 
         &.active {
             position:relative;
@@ -52,10 +53,6 @@
                 height:100%;
             }
         }
-    }
-    ul {
-        position:relative;
-    margin-bottom:300px;
     }
 }
 
