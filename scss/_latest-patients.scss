@@ -58,23 +58,6 @@
 
     .patient__surveys { }
 
-    .patient__btn {
-        border-left:.214em solid;
-        display:inline-block;
-        font-weight:bold;
-        margin-right: $padding / 4;
-        padding: $base-font-size / 4 $padding / 3;
-        text-decoration:none;
-    }
-
-    .patient__btn_1 {
-        @include patient__btn_n($patient__btn_1);
-    }
-
-    .patient__btn_2 {
-        @include patient__btn_n($patient__btn_2);
-    }
-
     .patients__total {
         background:adjust_hue(saturate(lighten($base-color, 26), 24), 5);
         border-top:1px solid saturate(lighten($base-color, 42), 20);

@@ -85,3 +85,20 @@
     }
 }
 
+
+/* surveys buttons */
+.patient__btn {
+    border-left:.214em solid;
+    display:inline-block;
+    font-weight:bold;
+    margin-right: $padding / 4;
+    padding: $base-font-size / 4 $padding / 3;
+    text-decoration:none;
+}
+.patient__btn_1 {
+    @include patient__btn_n($patient__btn_1);
+}
+
+.patient__btn_2 {
+    @include patient__btn_n($patient__btn_2);
+}

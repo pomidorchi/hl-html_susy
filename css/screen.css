@@ -366,6 +366,38 @@ h6 {
   box-shadow: rgba(101, 93, 68, 0.8) 0 0 0 1px, rgba(142, 126, 78, 0.5) 0 0 0 3px;
 }
 
+/* surveys buttons */
+.patient__btn {
+  border-left: .214em solid;
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 8px;
+  padding: 4px 10.66667px;
+  text-decoration: none;
+}
+
+.patient__btn_1 {
+  color: #d2f4e4;
+  background: #2bb673;
+  border-color: #18633f;
+}
+.patient__btn_1:hover {
+  color: #fbfefd;
+  background: #218d59;
+  border-color: #134f32;
+}
+
+.patient__btn_2 {
+  color: #ebd3eb;
+  background: #964394;
+  border-color: #4f244e;
+}
+.patient__btn_2:hover {
+  color: #fbf6fb;
+  background: #733371;
+  border-color: #3e1c3d;
+}
+
 /* =========================================== */
 /* footer                                      */
 /* =========================================== */
@@ -561,32 +593,6 @@ h6 {
 }
 .patients .patient__born {
   text-align: right;
-}
-.patients .patient__btn {
-  border-left: .214em solid;
-  display: inline-block;
-  font-weight: bold;
-  margin-right: 8px;
-  padding: 4px 10.66667px;
-  text-decoration: none;
-}
-.patients .patient__btn_1 {
-  color: #d2f4e4;
-  background: #2bb673;
-  border-color: #18633f;
-}
-.patients .patient__btn_1:hover {
-  background: #218d59;
-  border-color: #134f32;
-}
-.patients .patient__btn_2 {
-  color: #ebd3eb;
-  background: #964394;
-  border-color: #4f244e;
-}
-.patients .patient__btn_2:hover {
-  background: #733371;
-  border-color: #3e1c3d;
 }
 .patients .patients__total {
   background: #dacc87;
