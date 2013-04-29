@@ -85,7 +85,7 @@
 
     select { @include form-search-inp; }
 
-    ul { 
+    .unordered-list_txt {
         list-style: disc;
         margin-left:$padding / 2;
     }

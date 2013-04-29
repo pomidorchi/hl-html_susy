@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Карточка пациента | Балабанова | визит 12 апреля 2013 в 18:32</title>
+    <link rel="stylesheet" href="css/screen.css">
+
+    <link rel="stylesheet" href="css/iconic_fill.css">
+</head>
+<body>
+
+<header class="header">
+    <nav class="header-menu">
+        <ul>
+            <li class="header-menu__item header-menu__item-reload">
+                <a href="#"><span class="iconic reload_alt"></span></a></li>
+            <li class="header-menu__item"><a class="active" href="index.html">Картотека</a></li>
+            <li class="header-menu__item"><a href="#">Осмотры</a></li>
+        </ul>
+    </nav>
+    <div class="header-user-menu"></div>
+</header>
+
+<div class="form-search-wrapper">
+    <form action="" class="form-search">
+        <h3>поиск пациента</h3>
+
+        <div class="form-search__item form-search__item_last-name">
+            <label for="" class="form-search__label">Фамилия</label> <input type="text" class="form-search__text">
+        </div>
+        <div class="form-search__item form-search__item_first-name">
+            <label for="" class="form-search__label">Имя</label> <input type="text" class="form-search__text">
+        </div>
+        <div class="form-search__item form-search__item_middle-name">
+            <label for="" class="form-search__label">Отчество</label> <input type="text" class="form-search__text">
+        </div>
+        <div class="form-search__item form-search__item_born">
+            <label for="" class="form-search__label">Дата рождения</label>
+            <select name="" id="" class="form-search__item_day">
+                <option value="..."></option>
+                <option value="">13</option>
+            </select> <select name="" id="" class="form-search__item_month">
+            <option value="..."></option>
+            <option value="">сентября</option>
+        </select> <select name="" id="" class="form-search__item_year">
+            <option value="..."></option>
+            <option value="">2009</option>
+        </select>
+        </div>
+        <div class="form-search__item form-search__item_submit">
+            <input type="submit" value="Найти" class="b-btn">
+        </div>
+        <p class="form-search__note">Все поля должны быть заполнены. Полное совпадение обязательно.</p>
+    </form>
+</div>
+
+<div class="container">
+
+    <div class="patient-card">
+        <div class="patient-card__title">
+            <a href="index.html" class="nav-back">Картотека</a> / <a href="card__diary.html">Балабанова Александра Мария Константиновна</a>
+            <h1 class="patient-card__name"><em style="font-size:.8em;">визит к</em> <strong>Иванову Д. И.</strong>
+                <em style="font-size:.8em;">12 апреля 2013 в 18:32</em></h1>
+        </div>
+
+        <nav class="patient-card__navigation">
+            <ul>
+                <li><a href="card.html">Общие отметки</a></li>
+                <li><a href="card__signal.html">Сигнальные отметки</a></li>
+                <li><a href="card__diagnosis.html">Лист записи заключительных (уточнённых) диагнозов</a></li>
+                <li><a href="card__diary.html" class="active">Дневник пациента</a></li>
+            </ul>
+        </nav>
+        <div class="patient-card__content">
+            <form action="" class="">
+                <div class="patient-card__content-block">
+                    <h3>Служебные отметки</h3>
+                    <div class="patient-card__content-i2">
+                        <label for="">Дата и время начала приёма</label>
+                        <select name="" id="" class="">
+                            <option value="">13</option>
+                            <option value="..."></option>
+                        </select> <select name="" id="" class="">
+                        <option value="">сентября</option>
+                        <option value="..."></option>
+                    </select> <select name="" id="" class="">
+                        <option value="">2009</option>
+                        <option value="..."></option>
+                    </select>
+                        &nbsp;&nbsp;в
+                        <select name="" id="" class="">
+                            <option value="">10</option>
+                            <option value="..."></option>
+                        </select>
+                        :
+                        <select name="" id="" class="">
+                            <option value="">25</option>
+                            <option value="..."></option>
+                        </select>
+                    </div>
+                    <div class="patient-card__content-i3 patient-card__content-i3om">
+                        <label for="">Место приёма</label> <input type="text" class="" value="на дому">
+                    </div>
+                </div>
+
+                <div class="patient-card__content-block">
+
+                    <h3>Основные жалобы </h3>
+
+                    <div class="patient-card__content-i3">
+                        <ul class="checkbox-list">
+                            <li><input type="checkbox"> <label class="checkbox-label" for="">высыпания</label></li>
+                            <li><input type="checkbox" checked> <label class="checkbox-label" for="">зуд</label> </li>
+                            <li><input type="checkbox" checked> <label class="checkbox-label" for="">жжение</label></li>
+                            <li><input type="checkbox"> <label class="checkbox-label" for="">боль</label></li>
+                        </ul>
+                    </div>
+                    <div class="patient-card__content-i3">
+                        <ul class="checkbox-list">
+                            <li><input type="checkbox"> <label class="checkbox-label" for="">мокнутие (сочение)</label></li>
+                            <li><input type="checkbox" checked> <label class="checkbox-label" for="">чувство напряженности</label> </li>
+                            <li><input type="checkbox" checked> <label class="checkbox-label" for="">чувство стянутости кожи</label></li>
+                            <li><input type="checkbox"> <label class="checkbox-label" for="">онемение</label></li>
+                        </ul>
+                    </div>
+                    <div class="patient-card__content-i3 patient-card__content-i3om">
+                        <ul class="checkbox-list">
+                            <li><input type="checkbox"> <label class="checkbox-label" for="">«ползание мурашек» (парестезии)</label></li>
+                            <li><input type="checkbox" checked> <label class="checkbox-label" for="">сухость (ксероз) кожных покровов</label> </li>
+                            <li><input type="checkbox" checked> <label class="checkbox-label" for="">легкая ранимость кожи</label></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="patient-card__content-block">
+
+                    <h3>Дополнительные (общие) жалобы</h3>
+
+                    <div class="patient-card__content-i3">
+                        <ul class="checkbox-list">
+                            <li><input type="checkbox"> <label class="checkbox-label" for="">недомогание</label></li>
+                            <li><input type="checkbox" checked> <label class="checkbox-label" for="">общая слабость</label> </li>
+                            <li><input type="checkbox" checked> <label class="checkbox-label" for="">повышенная температура тела</label></li>
+                        </ul>
+                    </div>
+                    <div class="patient-card__content-i3">
+                        <ul class="checkbox-list">
+                            <li><input type="checkbox" checked> <label class="checkbox-label" for="">озноб</label></li>
+                            <li><input type="checkbox"> <label class="checkbox-label" for="">бессоница</label></li>
+                            <li><input type="checkbox" checked> <label class="checkbox-label" for="">потеря аппетита</label> </li>
+                        </ul>
+                    </div>
+                    <div class="patient-card__content-i3 patient-card__content-i3om">
+                        <ul class="checkbox-list">
+                            <li><input type="checkbox"> <label class="checkbox-label" for="">головная боль</label></li>
+                            <li><input type="checkbox"> <label class="checkbox-label" for="">боль в мышцах</label></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="patient-card__content-block">
+
+                    <h3>Время начала заболевания:
+                        <span class="unwrap-context">
+                            <select name="" id="">
+                                <option value="">13</option>
+                                <option value="..."></option>
+                            </select>
+                            <select name="" id="">
+                                <option value="">сентября</option>
+                                <option value="..."></option>
+                            </select>
+                            <select name="" id="">
+                                <option value="">2009</option>
+                                <option value="..."></option>
+                            </select>
+                        </span>
+                    </h3>
+                </div>
+
+                <div class="patient-card__content-block">
+
+                    <h3>Возможная причина заболевания </h3>
+
+                    <div class="patient-card__content-i3">
+                        <ul class="checkbox-list">
+                            <li><input type="checkbox"> <label class="checkbox-label" for="">прием лекарств</label></li>
+                            <li><input type="checkbox" checked> <label class="checkbox-label" for="">употребление аллергичных продуктов питания и напитков</label> </li>
+                            <li><input type="checkbox" checked> <label class="checkbox-label" for="">контакт с раздражающими веществами</label></li>
+                            <li><input type="checkbox"> <label class="checkbox-label" for="">контакт с зараженным человеком или животным</label></li>
+                            <li><input type="checkbox"> <label class="checkbox-label" for="">пребывание в эндемических зонах</label></li>
+                        </ul>
+                    </div>
+                    <div class="patient-card__content-i3">
+                        <ul class="checkbox-list">
+                            <li><input type="checkbox"> <label class="checkbox-label" for="">отягощенная наследственность</label></li>
+                            <li><input type="checkbox" checked> <label class="checkbox-label" for="">посещение общественных мест (бассейн, баня, сауна)</label> </li>
+                            <li><input type="checkbox"> <label class="checkbox-label" for="">избыточная инсоляция</label></li>
+                            <li><input type="checkbox" checked> <label class="checkbox-label" for="">нервный стресс</label></li>
+                            <li><input type="checkbox"> <label class="checkbox-label" for="">перенесенное инфекционное заболевание</label></li>
+                        </ul>
+                    </div>
+                    <div class="patient-card__content-i3 patient-card__content-i3om">
+                        <ul class="checkbox-list">
+                            <li><input type="checkbox" checked> <label class="checkbox-label" for="">злоупотребление алкоголем</label> </li>
+                            <li><input type="checkbox"> <label class="checkbox-label" for="">переохлаждение</label></li>
+                            <li><input type="checkbox"> <label class="checkbox-label" for="">профессиональные вредности</label></li>
+                            <li><input type="checkbox" checked> <label class="checkbox-label" for="">другие причины</label></li>
+                            <li><input type="checkbox"> <label class="checkbox-label" for="">затрудняюсь указать причину заболевания</label></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="patient-card__content-block">
+
+                    <h3>Характер начала болезни </h3>
+
+                    <div class="patient-card__content-i1">
+                        <input type="radio" checked><label class="radio-label" for="">острое</label>
+                        <input type="radio"><label class="radio-label" for="">постепенное</label>
+
+                        <label for="">Описание</label>
+                        <textarea name="" id="" cols="30" rows="10">Как-то всё странно вышло... Не помню!</textarea>
+
+                    </div>
+                </div>
+
+                <div class="patient-card__content-block">
+
+                    <h3>Динамика развития патологии</h3>
+
+                    <div class="patient-card__content-i1">
+                        <label for="">Где появились первые высыпания и как они распространялись по коже, эволюция высыпаний</label>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <p class="cr">
+        © <a href="#">Продвинутые медсистемы</a>, 2013 </p>
+</footer>
+
+
+</body>
+</html>

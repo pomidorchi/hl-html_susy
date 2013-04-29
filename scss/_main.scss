@@ -124,6 +124,12 @@ input[type="checkbox"] + label {
     margin-right:$base-font-size;
 }
 
+strong, b {
+    font-weight:bold;
+}
+
+em, i { font-style:italic; }
+
 .unwrap-context {
     white-space:nowrap;
 }

@@ -208,6 +208,14 @@ input[type="checkbox"] + label {
   margin-right: 16px;
 }
 
+strong, b {
+  font-weight: bold;
+}
+
+em, i {
+  font-style: italic;
+}
+
 .unwrap-context {
   white-space: nowrap;
 }
@@ -726,7 +734,7 @@ h6 {
   font-size: 18px;
   height: 2em;
 }
-.patient-card__content-block ul {
+.patient-card__content-block .unordered-list_txt {
   list-style: disc;
   margin-left: 16px;
 }
