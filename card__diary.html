@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Карточка пациента | Дневник</title>
+    <link rel="stylesheet" href="css/screen.css">
+
+    <link rel="stylesheet" href="css/iconic_fill.css">
+</head>
+<body>
+
+<header class="header">
+    <nav class="header-menu">
+        <ul>
+            <li class="header-menu__item header-menu__item-reload">
+                <a href="#"><span class="iconic reload_alt"></span></a></li>
+            <li class="header-menu__item"><a class="active" href="index.html">Картотека</a></li>
+            <li class="header-menu__item"><a href="#">Осмотры</a></li>
+        </ul>
+    </nav>
+    <div class="header-user-menu"></div>
+</header>
+
+<div class="form-search-wrapper">
+    <form action="" class="form-search">
+        <h3>поиск пациента</h3>
+
+        <div class="form-search__item form-search__item_last-name">
+            <label for="" class="form-search__label">Фамилия</label> <input type="text" class="form-search__text">
+        </div>
+        <div class="form-search__item form-search__item_first-name">
+            <label for="" class="form-search__label">Имя</label> <input type="text" class="form-search__text">
+        </div>
+        <div class="form-search__item form-search__item_middle-name">
+            <label for="" class="form-search__label">Отчество</label> <input type="text" class="form-search__text">
+        </div>
+        <div class="form-search__item form-search__item_born">
+            <label for="" class="form-search__label">Дата рождения</label>
+            <select name="" id="" class="form-search__item_day">
+                <option value="..."></option>
+                <option value="">13</option>
+            </select> <select name="" id="" class="form-search__item_month">
+            <option value="..."></option>
+            <option value="">сентября</option>
+        </select> <select name="" id="" class="form-search__item_year">
+            <option value="..."></option>
+            <option value="">2009</option>
+        </select>
+        </div>
+        <div class="form-search__item form-search__item_submit">
+            <input type="submit" value="Найти" class="b-btn">
+        </div>
+        <p class="form-search__note">Все поля должны быть заполнены. Полное совпадение обязательно.</p>
+    </form>
+</div>
+
+<div class="container">
+
+    <div class="patient-card">
+        <div class="patient-card__title">
+            <a href="index.html" class="nav-back">Картотека</a> /
+            <h1 class="patient-card__name">Балабанова Александра Мария Константиновна</h1>
+        </div>
+
+        <nav class="patient-card__navigation">
+            <ul>
+                <li><a href="card.html">Общие отметки</a></li>
+                <li><a href="card__signal.html">Сигнальные отметки</a></li>
+                <li><a href="card__diagnosis.html">Лист записи заключительных (уточнённых) диагнозов</a></li>
+                <li><a href="card__diary.html" class="active">Дневник пациента</a></li>
+            </ul>
+        </nav>
+        <div class="patient-card__content">
+            <form action="" class="">
+                <div class="patient-card__content-block">
+                    <div class="patient-card__content-i1">
+                        <table>
+                            <thead>
+                            <tr>
+                                <th rowspan="2">Дата обращения</th>
+                                <th colspan="2">Заключительный (уточненный) диагноз</th>
+                                <th rowspan="2">Впервые установленный диагноз</th>
+                                <th rowspan="2">Выявленный в результате профилактического осмотра</th>
+                                <th rowspan="2">Врач, внесший запись по установке диагноза</th>
+                            </tr>
+                            <tr>
+                                <th>Код МКБ-10</th>
+                                <th>Диагноз</th>
+                            </tr>
+                            </thead>
+
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <select name="" id="" class="form-search__item_day">
+                                        <option value="..."></option>
+                                        <option value="">13</option>
+                                    </select>
+                                    <select name="" id="" class="form-search__item_month">
+                                        <option value="..."></option>
+                                        <option value="">сентября</option>
+                                    </select>
+                                    <select name="" id="" class="form-search__item_year">
+                                        <option value="..."></option>
+                                        <option value="">2009</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select name="" id="" class="">
+                                        <option value="..."></option>
+                                        <option value="">13</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text">
+                                </td>
+                                <td>
+                                    <input type="checkbox">
+                                </td>
+                                <td>
+                                    <input type="checkbox">
+                                </td>
+                                <td>
+                                    <input type="text">
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <a href="">добавить запись о заключительном диагнозе</a>
+                    </div>
+                </div>
+                <div class="patient-card__content-block action-buttons">
+                    <div class="patient-card__content-i1">
+                        <a href="#" class="b-btn">Сохранить</a>
+                        <a href="#" class="b-btn b-btn__secondary">Отменить изменения</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <p class="cr">
+        © <a href="#">Продвинутые медсистемы</a>, 2013 </p>
+</footer>
+
+
+</body>
+</html>

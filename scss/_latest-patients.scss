@@ -1,0 +1,85 @@
+/* =========================================== */ 
+/* latest-patients                             */
+/* =========================================== */
+
+
+.latest-patients {
+    padding:$padding 0 0;
+    h1 {
+        text-transform:uppercase;
+    }
+}
+
+.patients {
+    width:100%;
+    th, td {
+        font-size: $base-font-size * 0.875;
+        @include prefix(1);
+    }
+    th {
+        background:adjust_hue(saturate(lighten($base-color, 26), 24), 5);
+        @include background-image(linear-gradient(bottom, saturate(lighten($base-color, 20), 20), saturate(lighten($base-color, 30), 30)));
+        border-top:1px solid saturate(lighten($base-color, 42), 20);
+        border-bottom:1px solid saturate(darken($base-color, 10), 10);
+        color:darken($base-color, 25);
+        font-weight:bold;
+        text-align:left;
+        line-height:1;
+        padding-top:$base-font-size;
+        padding-bottom:$base-font-size / 1.5;
+        vertical-align:middle;
+    }
+    td {
+        background:adjust_hue(saturate(lighten(rgba($base-color, 0.3), 26), 24), 5);
+        padding-top:$base-font-size / 2;
+        padding-bottom:$base-font-size / 2;
+        // &:before {
+        //     content: '+';
+        // }
+        // &:first-child:before {
+        //     display: none;
+        // }
+    }
+    tr:nth-child(odd) td {
+        background:adjust_hue(saturate(lighten(rgba($base-color, 0.3), 16), 14), 5);
+    }
+
+    .patient__id { }
+
+    .patient__fio {
+        font-weight:bold;
+    }
+
+    .patient__born {
+        text-align:right;
+    }
+
+    .patient__visit { }
+
+    .patient__surveys { }
+
+    .patient__btn {
+        border-left:.214em solid;
+        display:inline-block;
+        font-weight:bold;
+        margin-right: $padding / 4;
+        padding: $base-font-size / 4 $padding / 3;
+        text-decoration:none;
+    }
+
+    .patient__btn_1 {
+        @include patient__btn_n($patient__btn_1);
+    }
+
+    .patient__btn_2 {
+        @include patient__btn_n($patient__btn_2);
+    }
+
+    .patients__total {
+        background:adjust_hue(saturate(lighten($base-color, 26), 24), 5);
+        border-top:1px solid saturate(lighten($base-color, 42), 20);
+        border-bottom:1px solid saturate(darken($base-color, 10), 10);
+        color:darken($base-color, 25);
+        font-weight:bold;
+    }
+}
