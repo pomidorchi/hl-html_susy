@@ -85,6 +85,11 @@
 
     select { @include form-search-inp; }
 
+    ul { 
+        list-style: disc;
+        margin-left:$padding / 2;
+    }
+
     .checkbox-label {
         display:block;
         padding-left:$base-font-size * 2;

@@ -726,6 +726,10 @@ h6 {
   font-size: 18px;
   height: 2em;
 }
+.patient-card__content-block ul {
+  list-style: disc;
+  margin-left: 16px;
+}
 .patient-card__content-block .checkbox-label {
   display: block;
   padding-left: 32px;
