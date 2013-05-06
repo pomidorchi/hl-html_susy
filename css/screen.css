@@ -889,6 +889,9 @@ h6 {
   padding-bottom: 8px;
   vertical-align: middle;
 }
+.patient-card__table td.va-top {
+  vertical-align: top;
+}
 .patient-card__table tr:nth-child(odd) td {
   background: rgba(196, 181, 106, 0.3);
 }
@@ -911,4 +914,12 @@ h6 {
 }
 .patient-card__table .patient-card__table__date {
   width: 300px;
+}
+
+.patient-card__note {
+  color: #8e7e4e;
+  line-height: 1;
+  font-size: 12.8px;
+  padding-bottom: 8px;
+  padding-top: 8px;
 }
