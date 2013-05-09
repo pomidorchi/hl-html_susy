@@ -734,6 +734,12 @@ h6 {
   font-size: 18px;
   height: 2em;
 }
+.patient-card__content-block div > textarea {
+  margin-bottom: 16px;
+}
+.patient-card__content-block h3 + div > textarea:first-child {
+  margin-top: 16px;
+}
 .patient-card__content-block .unordered-list_txt {
   list-style: disc;
   margin-left: 16px;

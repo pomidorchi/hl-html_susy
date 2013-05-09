@@ -133,7 +133,6 @@
 
                     <div class="patient-card__content-i1">
                         <p class="form-search__note">Вы можете добавить расширенное описание к выбранным жалобам:</p>
-                        <!--TODO: find a way to create rows in textarea-->
                         <textarea name="" id="" cols="30" rows="10">Зуд: особо силён в пятой точке по утрам;&#10;Лёгкая ранимость кожи: лопается от жара в 300+ градусов Цельсия и не заживает минут 10.&#10;</textarea>
                     </div>
                 </div>
@@ -164,7 +163,6 @@
                     </div>
                     <div class="patient-card__content-i1">
                         <p class="form-search__note">Вы можете добавить расширенное описание к выбранным жалобам:</p>
-                        <!--TODO: find a way to create rows in textarea-->
                         <textarea name="" id="" cols="30" rows="10">Зуд: особо силён в пятой точке по утрам;&#10;Лёгкая ранимость кожи: лопается от жара в 300+ градусов Цельсия и не заживает минут 10.&#10;</textarea>
                     </div>
                 </div>
@@ -613,6 +611,77 @@
                             </tbody>
                         </table>
                         <p class="add-info"><a href="" class="pseudo-link">добавить запись о непереносимом препарате</a></p>
+                    </div>
+                </div>
+
+                <div class="patient-card__content-block">
+
+                    <h3>Status praesens (данные объективного обследования)</h3>
+
+                    <div class="patient-card__content-i1">
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+
+                </div>
+
+                <div class="patient-card__content-block">
+
+                    <h3>Status localis (местный статус)</h3>
+
+                    <div class="patient-card__content-i1">
+                        <p class="form-search__note">Заполняется экспертом, на основании данных фотодокументации</p>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                        <p>Описано на основе данных дерматоскопии от <a href="" target="_blank">12 марта 2013 15:42 <span class="iconic arrow_right_alt1"></span></a> КАК СЮДА ПОДТЯГИВАЕТСЯ ССЫЛКА?</p>
+                    </div>
+
+                </div>
+
+                <div class="patient-card__content-block">
+
+                    <h3>Диагноз по МКБ-10</h3>
+
+                    <div class="patient-card__content-i1-5">
+                        <p class="form-search__note">Начните писать диагноз или код МКБ-10 для автоподстановки</p>
+                        <input type="text" class="" value="">
+                    </div>
+
+                </div>
+
+                <div class="patient-card__content-block">
+
+                    <h3>Расширенный текстовый диагноз (с сопутствющими диагнозами и осложнениями)</h3>
+
+                    <div class="patient-card__content-i1">
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+
+                </div>
+
+                <div class="patient-card__content-block">
+
+                    <h3>Рекомендации (дообследование, лечение)</h3>
+
+                    <div class="patient-card__content-i3">
+                        <ul class="checkbox-list">
+                            <li><input type="checkbox" checked> <label class="checkbox-label" for="">консультация дерматолога</label></li>
+                            <li><input type="checkbox"> <label class="checkbox-label" for="">консультация онколога</label></li>
+                            <li><input type="checkbox" checked> <label class="checkbox-label" for="">консультация дерматоонколога</label> </li>
+                        </ul>
+                    </div>
+                    <div class="patient-card__content-i2 patient-card__content-i2om">
+                        <ul class="checkbox-list">
+                            <li><input type="checkbox"> <label class="checkbox-label" for="">удаление новообразования кожи хирургическим методом</label></li>
+                            <li><input type="checkbox" checked> <label class="checkbox-label" for="">удаление новообразования кожи радиоволновым методом</label> </li>
+                            <li><input type="checkbox" checked> <label class="checkbox-label" for="">проведение патогистологическко исследования удаленного материала</label></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="patient-card__content-block action-buttons">
+                    <div class="patient-card__content-i1">
+                        <a href="#" class="b-btn">Сохранить</a>
+                        <a href="#" class="b-btn b-btn__secondary">Отменить изменения</a>
                     </div>
                 </div>
             </form>

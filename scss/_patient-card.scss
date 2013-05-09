@@ -85,6 +85,10 @@
 
     select { @include form-search-inp; }
 
+    div > textarea {margin-bottom:$padding / 2;}
+
+    h3 + div > textarea:first-child {margin-top:$padding / 2;}
+
     .unordered-list_txt {
         list-style: disc;
         margin-left:$padding / 2;
