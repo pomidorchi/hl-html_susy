@@ -929,3 +929,47 @@ h6 {
   padding-bottom: 8px;
   padding-top: 8px;
 }
+
+.login-form {
+  width: 32.90323%;
+  float: left;
+  margin-right: 0.64516%;
+  display: inline;
+  margin-left: 33.54839%;
+  margin-right: 33.54839%;
+  margin-top: 128px;
+}
+.login-form input[type=text],
+.login-form input[type=password] {
+  background: #dccb99;
+  border: 1px solid #766533;
+  background-image: linear-gradient(to bottom, #cfb873, #e3cf92);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: whitesmoke 0 1px, #c9ae60 0px 0px 6px 2px inset;
+  -moz-box-shadow: whitesmoke 0 1px, #c9ae60 0px 0px 6px 2px inset;
+  box-shadow: whitesmoke 0 1px, #c9ae60 0px 0px 6px 2px inset;
+  color: #3c3521;
+  font-size: 18px;
+  height: 2em;
+}
+.login-form label {
+  display: block;
+  margin-top: 16px;
+}
+.login-form .login-form__email,
+.login-form .login-form__pass {
+  width: 100%;
+}
+.login-form .login-form__cert {
+  width: 75%;
+}
+.login-form .action-buttons {
+  text-align: center;
+  padding-top: 32px;
+}
+.login-form .action-buttons .b-btn__login {
+  font-size: 19.2px !important;
+  width: 96px;
+}
