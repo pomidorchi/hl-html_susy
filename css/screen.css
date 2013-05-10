@@ -220,6 +220,10 @@ em, i {
   white-space: nowrap;
 }
 
+.va-top {
+  vertical-align: top;
+}
+
 /* =========================================== */
 /* Layout                                      */
 /* =========================================== */
@@ -592,6 +596,7 @@ h6 {
   background: rgba(218, 204, 135, 0.3);
   padding-top: 8px;
   padding-bottom: 8px;
+  vertical-align: middle;
 }
 .patients tr:nth-child(odd) td {
   background: rgba(196, 181, 106, 0.3);
@@ -897,9 +902,6 @@ h6 {
   padding-bottom: 8px;
   vertical-align: middle;
 }
-.patient-card__table td.va-top {
-  vertical-align: top;
-}
 .patient-card__table tr:nth-child(odd) td {
   background: rgba(196, 181, 106, 0.3);
 }
@@ -974,4 +976,59 @@ h6 {
 .login-form .action-buttons .b-btn__login {
   font-size: 19.2px !important;
   width: 96px;
+}
+
+/* =========================================== */
+/* surveilances                                */
+/* =========================================== */
+.surveillances {
+  padding: 32px 0 0;
+}
+.surveillances h1 {
+  text-transform: uppercase;
+}
+
+.latest-surveillances {
+  width: 100%;
+}
+.latest-surveillances th, .latest-surveillances td {
+  font-size: 14px;
+  padding-left: 2.09677%;
+}
+.latest-surveillances th {
+  background: #dacc87;
+  background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #cfb873), color-stop(100%, #e3cf92));
+  background-image: -webkit-linear-gradient(bottom, #cfb873, #e3cf92);
+  background-image: -moz-linear-gradient(bottom, #cfb873, #e3cf92);
+  background-image: -o-linear-gradient(bottom, #cfb873, #e3cf92);
+  background-image: linear-gradient(bottom, #cfb873, #e3cf92);
+  border-top: 1px solid #ece2c6;
+  border-bottom: 1px solid #766533;
+  color: #3c3521;
+  font-weight: bold;
+  text-align: left;
+  line-height: 1;
+  padding-top: 16px;
+  padding-bottom: 10.66667px;
+  vertical-align: middle;
+}
+.latest-surveillances td {
+  background: rgba(218, 204, 135, 0.3);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  vertical-align: middle;
+}
+.latest-surveillances tr:nth-child(odd) td {
+  background: rgba(196, 181, 106, 0.3);
+}
+.latest-surveillances .surveillances__total {
+  background: #dacc87;
+  border-top: 1px solid #ece2c6;
+  border-bottom: 1px solid #766533;
+  color: #3c3521;
+  font-weight: bold;
+}
+.latest-surveillances li {
+  padding-top: 4px;
+  padding-bottom: 4px;
 }

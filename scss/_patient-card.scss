@@ -212,9 +212,6 @@
         padding-top:$base-font-size / 2;
         padding-bottom:$base-font-size / 2;
         vertical-align:middle;
-        &.va-top {
-            vertical-align:top;
-        }
     }
     tr:nth-child(odd) td {
         background:adjust_hue(saturate(lighten(rgba($base-color, 0.3), 16), 14), 5);
