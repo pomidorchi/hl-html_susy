@@ -87,3 +87,34 @@
         color:$base-color;
     }
 }
+
+.data-filters {
+    //background:rgba(255, 30, 30, .3);
+    margin-bottom:$padding / 2;
+
+    li {
+        display:inline-block;
+        border-right:1px solid $base-color;
+        padding-left:$padding / 4;
+        padding-right:$padding / 4;
+        
+        &:first-child,
+        &:last-child {
+            border-right:none;
+        }
+        &:first-child { 
+            font-weight:bold;
+            padding-left:0;
+        }
+
+        &.active a {
+            font-weight:bold;
+            border-bottom:none;
+        }
+    }
+
+    select {
+        @include form-search-inp;
+        font-size:$base-font-size;
+    }
+}

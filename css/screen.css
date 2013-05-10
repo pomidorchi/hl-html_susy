@@ -1079,3 +1079,39 @@ h6 {
   font-style: italic;
   color: #8e7e4e;
 }
+
+.data-filters {
+  margin-bottom: 16px;
+}
+.data-filters li {
+  display: inline-block;
+  border-right: 1px solid #8e7e4e;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.data-filters li:first-child, .data-filters li:last-child {
+  border-right: none;
+}
+.data-filters li:first-child {
+  font-weight: bold;
+  padding-left: 0;
+}
+.data-filters li.active a {
+  font-weight: bold;
+  border-bottom: none;
+}
+.data-filters select {
+  background: #dccb99;
+  border: 1px solid #766533;
+  background-image: linear-gradient(to bottom, #cfb873, #e3cf92);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: whitesmoke 0 1px, #c9ae60 0px 0px 6px 2px inset;
+  -moz-box-shadow: whitesmoke 0 1px, #c9ae60 0px 0px 6px 2px inset;
+  box-shadow: whitesmoke 0 1px, #c9ae60 0px 0px 6px 2px inset;
+  color: #3c3521;
+  font-size: 18px;
+  height: 2em;
+  font-size: 16px;
+}
