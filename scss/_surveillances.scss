@@ -25,4 +25,65 @@
         padding-top:$padding / 8;
         padding-bottom:$padding / 8;
     }
+
+
+
+    .actions {
+        padding-right:$padding / 8;
+
+        .action-item__main-link {
+            display:inline-block;
+            line-height:1;
+        }
+
+        .action-item__ico {
+            font-size:$base-font-size * 1.2;
+            //color:$base-color;
+            color:darken($base-color, 10);
+            display:inline-block;
+            vertical-align:top;
+            line-height:1;
+        }
+
+        .action-item__main-link,
+        .action-item__sec-link {
+            text-decoration:none;
+            border-bottom:dotted 1px;
+        }
+
+        .action-item__sec-link-container {
+            text-align:right;
+            line-height:1;
+        }
+        .action-item__sec-link {
+            color:darken(saturate($base-color, 40), 20);
+            line-height:1;
+            font-size:$base-font-size * .7;
+        }
+
+        .action-item__realized {
+
+            .action-item__ico,
+            .action-item__main-link {
+                border-bottom:none;
+                color:darken(saturate(adjust_hue($base-color, 81), 10), 1);
+                font-weight:bold;
+            }
+
+        }
+    }
+}
+
+.surveillances__email {
+    color:$base-color;
+    line-height:1;
+    font-size:$base-font-size * .8;
+    padding-bottom:$padding / 4;
+    padding-top:$padding / 4;
+    text-align:right;
+
+    a {
+        font-style:italic;
+        color:$base-color;
+    }
 }

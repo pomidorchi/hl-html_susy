@@ -68,66 +68,367 @@
                 <th class="patient__id">ID</th>
                 <th class="patient__fio">ФИО</th>
                 <th class="patient__born">Дата рождения</th>
-                <th class="">Email</th>
                 <th class="patient__surveys">Обследование</th>
-                <th class="patient__surveys">Статус</th>
+                <th colspan="3" class="patient__surveys">Действия</th>
             </tr>
-            <tr>
-                <td class="patient__visit">03.04.2013 в 18:32</td>
-                <td class="patient__id">00007374</td>
-                <td class="patient__fio"><a href="card.html">Балабанова Александра Мария Константиновна</a></td>
-                <td class="patient__born">13.10.2009</td>
-                <td class=""><a href="mailto:pomidorchi@gmail.com?subject=Результаты осмотра МИКРОСНИМКИ (проведён 03.04.2013 в 18:32)">balabanova@gmail.com</a></td>
-                <td class="patient__surveys">
-                    <a href="#" class="patient__btn patient__btn_2">Микроснимки</a>
-                </td>
-                <td class="va-top">
-                    <ul>
-                        <li><a href="#" class="pseudo-link">Пометить просмотренным</a></li>
-                        <li><a href="#" class="pseudo-link">Скачать PDF</a> <span class="iconic arrow_down_alt1"></span></li>
-                        <li><a href="#" class="pseudo-link">Отправить пациенту</a></li>
-                    </ul>
 
-                </td>
-            </tr>
             <tr>
-                <td class="patient__visit">03.04.2013 в 18:32</td>
+                <td class="patient__visit">03.04.2013 <br><span class="unwrap-context">в 18:32</span></td>
                 <td class="patient__id">00007374</td>
-                <td class="patient__fio"><a href="card.html">Балабанова Александра Мария Константиновна</a></td>
-                <td class="patient__born">13.10.2009</td>
-                <td class=""><a href="mailto:pomidorchi@gmail.com?subject=Результаты осмотра МИКРОСНИМКИ (проведён 03.04.2013 в 18:32)">balabanova@gmail.com</a></td>
-                <td class="patient__surveys">
-                    <a href="#" class="patient__btn patient__btn_2">Микроснимки</a>
+                <td class="patient__fio">
+                    <a href="card.html">Балабанова Александра Мария Константиновна</a>
+                    <p class="surveillances__email">
+                        <a href="mailto:pomidorchi@gmail.com?subject=Результаты осмотра МИКРОСНИМКИ (проведён 03.04.2013 в 18:32)">balabanova@gmail.com</a>
+                    </p>
                 </td>
-                <td class="va-top">
-                    <ul>
-                        <li><a href="#" class="pseudo-link">Пометить просмотренным</a></li>
-                        <li><a href="#" class="pseudo-link">Скачать PDF</a></li>
-                        <li><a href="#" class="pseudo-link">Отправить пациенту</a></li>
-                    </ul>
+                <td class="patient__born">13.10.2009</td>
+                <td class="patient__surveys">
+                    <a href="mapping.html" class="patient__btn patient__btn_1" target="_blank">Маппинг<span style="margin-left:2px;" class="iconic new_window"></span></a>
+                </td>
 
+                <td class="actions">
+                    <div class="action-item">
+                        <span class="iconic eye action-item__ico"></span>
+                        <a href="#" class="action-item__main-link">Пометить<br>просмотренным</a>
+                    </div>
+                </td>
+                <td class="actions">
+                    <div class="action-item">
+                        <span class="iconic arrow_down_alt1 action-item__ico"></span>
+                        <a href="#" class="action-item__main-link">Скачать<br>PDF</a>
+                    </div>
+                </td>
+                <td class="actions">
+                    <div class="action-item">
+                        <span class="iconic curved_arrow action-item__ico"></span>
+                        <a href="#" class="action-item__main-link">Отправить<br>пациенту</a>
+                    </div>
                 </td>
             </tr>
+
             <tr>
-                <td class="patient__visit">03.04.2013 в 18:32</td>
+                <td class="patient__visit">03.04.2013 <br><span class="unwrap-context">в 18:32</span></td>
                 <td class="patient__id">00007374</td>
-                <td class="patient__fio"><a href="card.html">Балабанова Александра Мария Константиновна</a></td>
-                <td class="patient__born">13.10.2009</td>
-                <td class=""><a href="mailto:pomidorchi@gmail.com?subject=Результаты осмотра МИКРОСНИМКИ (проведён 03.04.2013 в 18:32)">balabanova@gmail.com</a></td>
-                <td class="patient__surveys">
-                    <a href="#" class="patient__btn patient__btn_2">Микроснимки</a>
+                <td class="patient__fio">
+                    <a href="card.html">Балабанова Александра Мария Константиновна</a>
+                    <p class="surveillances__email">
+                        <a href="mailto:pomidorchi@gmail.com?subject=Результаты осмотра МИКРОСНИМКИ (проведён 03.04.2013 в 18:32)">balabanova@gmail.com</a>
+                    </p>
                 </td>
-                <td class="va-top">
-                    <ul>
-                        <li><a href="#" class="pseudo-link">Пометить просмотренным</a></li>
-                        <li><a href="#" class="pseudo-link">Скачать PDF</a></li>
-                        <li><a href="#" class="pseudo-link">Отправить пациенту</a></li>
-                    </ul>
+                <td class="patient__born">13.10.2009</td>
+                <td class="patient__surveys">
+                    <a href="microphoto.html" class="patient__btn patient__btn_2" target="_blank">Микроснимки<span style="margin-left:2px;" class="iconic new_window"></span></a>
+                </td>
 
+                <td class="actions">
+                    <div class="action-item action-item__realized">
+                        <span class="iconic eye action-item__ico"></span>
+                        <a href="#" class="action-item__main-link">Просмотрено</a>
+                        <p class="action-item__sec-link-container"><a href="#" class="action-item__sec-link">Отменить</a></p>
+                    </div>
+                </td>
+                <td class="actions">
+                    <div class="action-item action-item__realized">
+                        <span class="iconic arrow_down_alt1 action-item__ico"></span>
+                        <a href="#" class="action-item__main-link">Скачано</a>
+                        <p class="action-item__sec-link-container"><a href="#" class="action-item__sec-link">Скачать ещё раз</a></p>
+                    </div>
+                </td>
+                <td class="actions">
+                    <div class="action-item action-item__realized">
+                        <span class="iconic curved_arrow action-item__ico"></span>
+                        <a href="#" class="action-item__main-link">Отправлено</a>
+                        <p class="action-item__sec-link-container"><a href="#" class="action-item__sec-link">Отправить повторно</a></p>
+                    </div>
                 </td>
             </tr>
+
             <tr>
-                <td colspan="7" class="surveillances__total">Отображено 10 последних осмотров</td>
+                <td class="patient__visit">03.04.2013 <br><span class="unwrap-context">в 18:32</span></td>
+                <td class="patient__id">00007374</td>
+                <td class="patient__fio">
+                    <a href="card.html">Балабанова Александра Мария Константиновна</a>
+                    <p class="surveillances__email">
+                        <a href="mailto:pomidorchi@gmail.com?subject=Результаты осмотра МИКРОСНИМКИ (проведён 03.04.2013 в 18:32)">balabanova@gmail.com</a>
+                    </p>
+                </td>
+                <td class="patient__born">13.10.2009</td>
+                <td class="patient__surveys">
+                    <a href="mapping.html" class="patient__btn patient__btn_1" target="_blank">Маппинг<span style="margin-left:2px;" class="iconic new_window"></span></a>
+                </td>
+
+                <td class="actions">
+                    <div class="action-item">
+                        <span class="iconic eye action-item__ico"></span>
+                        <a href="#" class="action-item__main-link">Пометить<br>просмотренным</a>
+                    </div>
+                </td>
+                <td class="actions">
+                    <div class="action-item">
+                        <span class="iconic arrow_down_alt1 action-item__ico"></span>
+                        <a href="#" class="action-item__main-link">Скачать<br>PDF</a>
+                    </div>
+                </td>
+                <td class="actions">
+                    <div class="action-item">
+                        <span class="iconic curved_arrow action-item__ico"></span>
+                        <a href="#" class="action-item__main-link">Отправить<br>пациенту</a>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="patient__visit">03.04.2013 <br><span class="unwrap-context">в 18:32</span></td>
+                <td class="patient__id">00007374</td>
+                <td class="patient__fio">
+                    <a href="card.html">Балабанова Александра Мария Константиновна</a>
+                    <p class="surveillances__email">
+                        <a href="mailto:pomidorchi@gmail.com?subject=Результаты осмотра МИКРОСНИМКИ (проведён 03.04.2013 в 18:32)">balabanova@gmail.com</a>
+                    </p>
+                </td>
+                <td class="patient__born">13.10.2009</td>
+                <td class="patient__surveys">
+                    <a href="microphoto.html" class="patient__btn patient__btn_2" target="_blank">Микроснимки<span style="margin-left:2px;" class="iconic new_window"></span></a>
+                </td>
+
+                <td class="actions">
+                    <div class="action-item action-item__realized">
+                        <span class="iconic eye action-item__ico"></span>
+                        <a href="#" class="action-item__main-link">Просмотрено</a>
+                        <p class="action-item__sec-link-container"><a href="#" class="action-item__sec-link">Отменить</a></p>
+                    </div>
+                </td>
+                <td class="actions">
+                    <div class="action-item action-item__realized">
+                        <span class="iconic arrow_down_alt1 action-item__ico"></span>
+                        <a href="#" class="action-item__main-link">Скачано</a>
+                        <p class="action-item__sec-link-container"><a href="#" class="action-item__sec-link">Скачать ещё раз</a></p>
+                    </div>
+                </td>
+                <td class="actions">
+                    <div class="action-item action-item__realized">
+                        <span class="iconic curved_arrow action-item__ico"></span>
+                        <a href="#" class="action-item__main-link">Отправлено</a>
+                        <p class="action-item__sec-link-container"><a href="#" class="action-item__sec-link">Отправить повторно</a></p>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="patient__visit">03.04.2013 <br><span class="unwrap-context">в 18:32</span></td>
+                <td class="patient__id">00007374</td>
+                <td class="patient__fio">
+                    <a href="card.html">Балабанова Александра Мария Константиновна</a>
+                    <p class="surveillances__email">
+                        <a href="mailto:pomidorchi@gmail.com?subject=Результаты осмотра МИКРОСНИМКИ (проведён 03.04.2013 в 18:32)">balabanova@gmail.com</a>
+                    </p>
+                </td>
+                <td class="patient__born">13.10.2009</td>
+                <td class="patient__surveys">
+                    <a href="mapping.html" class="patient__btn patient__btn_1" target="_blank">Маппинг<span style="margin-left:2px;" class="iconic new_window"></span></a>
+                </td>
+
+                <td class="actions">
+                    <div class="action-item">
+                        <span class="iconic eye action-item__ico"></span>
+                        <a href="#" class="action-item__main-link">Пометить<br>просмотренным</a>
+                    </div>
+                </td>
+                <td class="actions">
+                    <div class="action-item">
+                        <span class="iconic arrow_down_alt1 action-item__ico"></span>
+                        <a href="#" class="action-item__main-link">Скачать<br>PDF</a>
+                    </div>
+                </td>
+                <td class="actions">
+                    <div class="action-item">
+                        <span class="iconic curved_arrow action-item__ico"></span>
+                        <a href="#" class="action-item__main-link">Отправить<br>пациенту</a>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="patient__visit">03.04.2013 <br><span class="unwrap-context">в 18:32</span></td>
+                <td class="patient__id">00007374</td>
+                <td class="patient__fio">
+                    <a href="card.html">Балабанова Александра Мария Константиновна</a>
+                    <p class="surveillances__email">
+                        <a href="mailto:pomidorchi@gmail.com?subject=Результаты осмотра МИКРОСНИМКИ (проведён 03.04.2013 в 18:32)">balabanova@gmail.com</a>
+                    </p>
+                </td>
+                <td class="patient__born">13.10.2009</td>
+                <td class="patient__surveys">
+                    <a href="microphoto.html" class="patient__btn patient__btn_2" target="_blank">Микроснимки<span style="margin-left:2px;" class="iconic new_window"></span></a>
+                </td>
+
+                <td class="actions">
+                    <div class="action-item action-item__realized">
+                        <span class="iconic eye action-item__ico"></span>
+                        <a href="#" class="action-item__main-link">Просмотрено</a>
+                        <p class="action-item__sec-link-container"><a href="#" class="action-item__sec-link">Отменить</a></p>
+                    </div>
+                </td>
+                <td class="actions">
+                    <div class="action-item action-item__realized">
+                        <span class="iconic arrow_down_alt1 action-item__ico"></span>
+                        <a href="#" class="action-item__main-link">Скачано</a>
+                        <p class="action-item__sec-link-container"><a href="#" class="action-item__sec-link">Скачать ещё раз</a></p>
+                    </div>
+                </td>
+                <td class="actions">
+                    <div class="action-item action-item__realized">
+                        <span class="iconic curved_arrow action-item__ico"></span>
+                        <a href="#" class="action-item__main-link">Отправлено</a>
+                        <p class="action-item__sec-link-container"><a href="#" class="action-item__sec-link">Отправить повторно</a></p>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="patient__visit">03.04.2013 <br><span class="unwrap-context">в 18:32</span></td>
+                <td class="patient__id">00007374</td>
+                <td class="patient__fio">
+                    <a href="card.html">Балабанова Александра Мария Константиновна</a>
+                    <p class="surveillances__email">
+                        <a href="mailto:pomidorchi@gmail.com?subject=Результаты осмотра МИКРОСНИМКИ (проведён 03.04.2013 в 18:32)">balabanova@gmail.com</a>
+                    </p>
+                </td>
+                <td class="patient__born">13.10.2009</td>
+                <td class="patient__surveys">
+                    <a href="mapping.html" class="patient__btn patient__btn_1" target="_blank">Маппинг<span style="margin-left:2px;" class="iconic new_window"></span></a>
+                </td>
+
+                <td class="actions">
+                    <div class="action-item">
+                        <span class="iconic eye action-item__ico"></span>
+                        <a href="#" class="action-item__main-link">Пометить<br>просмотренным</a>
+                    </div>
+                </td>
+                <td class="actions">
+                    <div class="action-item">
+                        <span class="iconic arrow_down_alt1 action-item__ico"></span>
+                        <a href="#" class="action-item__main-link">Скачать<br>PDF</a>
+                    </div>
+                </td>
+                <td class="actions">
+                    <div class="action-item">
+                        <span class="iconic curved_arrow action-item__ico"></span>
+                        <a href="#" class="action-item__main-link">Отправить<br>пациенту</a>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="patient__visit">03.04.2013 <br><span class="unwrap-context">в 18:32</span></td>
+                <td class="patient__id">00007374</td>
+                <td class="patient__fio">
+                    <a href="card.html">Балабанова Александра Мария Константиновна</a>
+                    <p class="surveillances__email">
+                        <a href="mailto:pomidorchi@gmail.com?subject=Результаты осмотра МИКРОСНИМКИ (проведён 03.04.2013 в 18:32)">balabanova@gmail.com</a>
+                    </p>
+                </td>
+                <td class="patient__born">13.10.2009</td>
+                <td class="patient__surveys">
+                    <a href="microphoto.html" class="patient__btn patient__btn_2" target="_blank">Микроснимки<span style="margin-left:2px;" class="iconic new_window"></span></a>
+                </td>
+
+                <td class="actions">
+                    <div class="action-item action-item__realized">
+                        <span class="iconic eye action-item__ico"></span>
+                        <a href="#" class="action-item__main-link">Просмотрено</a>
+                        <p class="action-item__sec-link-container"><a href="#" class="action-item__sec-link">Отменить</a></p>
+                    </div>
+                </td>
+                <td class="actions">
+                    <div class="action-item action-item__realized">
+                        <span class="iconic arrow_down_alt1 action-item__ico"></span>
+                        <a href="#" class="action-item__main-link">Скачано</a>
+                        <p class="action-item__sec-link-container"><a href="#" class="action-item__sec-link">Скачать ещё раз</a></p>
+                    </div>
+                </td>
+                <td class="actions">
+                    <div class="action-item action-item__realized">
+                        <span class="iconic curved_arrow action-item__ico"></span>
+                        <a href="#" class="action-item__main-link">Отправлено</a>
+                        <p class="action-item__sec-link-container"><a href="#" class="action-item__sec-link">Отправить повторно</a></p>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="patient__visit">03.04.2013 <br><span class="unwrap-context">в 18:32</span></td>
+                <td class="patient__id">00007374</td>
+                <td class="patient__fio">
+                    <a href="card.html">Балабанова Александра Мария Константиновна</a>
+                    <p class="surveillances__email">
+                        <a href="mailto:pomidorchi@gmail.com?subject=Результаты осмотра МИКРОСНИМКИ (проведён 03.04.2013 в 18:32)">balabanova@gmail.com</a>
+                    </p>
+                </td>
+                <td class="patient__born">13.10.2009</td>
+                <td class="patient__surveys">
+                    <a href="mapping.html" class="patient__btn patient__btn_1" target="_blank">Маппинг<span style="margin-left:2px;" class="iconic new_window"></span></a>
+                </td>
+
+                <td class="actions">
+                    <div class="action-item">
+                        <span class="iconic eye action-item__ico"></span>
+                        <a href="#" class="action-item__main-link">Пометить<br>просмотренным</a>
+                    </div>
+                </td>
+                <td class="actions">
+                    <div class="action-item">
+                        <span class="iconic arrow_down_alt1 action-item__ico"></span>
+                        <a href="#" class="action-item__main-link">Скачать<br>PDF</a>
+                    </div>
+                </td>
+                <td class="actions">
+                    <div class="action-item">
+                        <span class="iconic curved_arrow action-item__ico"></span>
+                        <a href="#" class="action-item__main-link">Отправить<br>пациенту</a>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="patient__visit">03.04.2013 <br><span class="unwrap-context">в 18:32</span></td>
+                <td class="patient__id">00007374</td>
+                <td class="patient__fio">
+                    <a href="card.html">Балабанова Александра Мария Константиновна</a>
+                    <p class="surveillances__email">
+                        <a href="mailto:pomidorchi@gmail.com?subject=Результаты осмотра МИКРОСНИМКИ (проведён 03.04.2013 в 18:32)">balabanova@gmail.com</a>
+                    </p>
+                </td>
+                <td class="patient__born">13.10.2009</td>
+                <td class="patient__surveys">
+                    <a href="microphoto.html" class="patient__btn patient__btn_2" target="_blank">Микроснимки<span style="margin-left:2px;" class="iconic new_window"></span></a>
+                </td>
+
+                <td class="actions">
+                    <div class="action-item action-item__realized">
+                        <span class="iconic eye action-item__ico"></span>
+                        <a href="#" class="action-item__main-link">Просмотрено</a>
+                        <p class="action-item__sec-link-container"><a href="#" class="action-item__sec-link">Отменить</a></p>
+                    </div>
+                </td>
+                <td class="actions">
+                    <div class="action-item action-item__realized">
+                        <span class="iconic arrow_down_alt1 action-item__ico"></span>
+                        <a href="#" class="action-item__main-link">Скачано</a>
+                        <p class="action-item__sec-link-container"><a href="#" class="action-item__sec-link">Скачать ещё раз</a></p>
+                    </div>
+                </td>
+                <td class="actions">
+                    <div class="action-item action-item__realized">
+                        <span class="iconic curved_arrow action-item__ico"></span>
+                        <a href="#" class="action-item__main-link">Отправлено</a>
+                        <p class="action-item__sec-link-container"><a href="#" class="action-item__sec-link">Отправить повторно</a></p>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="8" class="surveillances__total">Отображено 10 последних осмотров</td>
             </tr>
         </table>
     </div>
