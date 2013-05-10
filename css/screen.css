@@ -698,6 +698,8 @@ h6 {
   color: #2b2618;
 }
 .patient-card__content-block input[type=text],
+.patient-card__content-block input[type=tel],
+.patient-card__content-block input[type=email],
 .patient-card__content-block textarea {
   background: #dccb99;
   border: 1px solid #766533;

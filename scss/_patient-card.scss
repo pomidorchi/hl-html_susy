@@ -71,6 +71,8 @@
     h6 { color:$body-color; }
 
     input[type=text],
+    input[type=tel],
+    input[type=email],
     textarea {
         @include form-search-inp;
         width:100%;
