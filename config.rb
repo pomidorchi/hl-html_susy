@@ -28,4 +28,5 @@ relative_assets = true
 sass_options = {:debug_info => true}
 
 
-# use this to run sass compiler in project folder: use this
+# use this to run sass compiler in project folder: sass --watch scss:css --compass --style expanded --debugnfo
+# Chrome support for SASS: http://stackoverflow.com/a/12766874
