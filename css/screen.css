@@ -440,8 +440,16 @@ h6 {
   padding: 4px 10.66667px;
   text-decoration: none;
 }
-
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pomidorchi\/Hospital\/_PROCESS\/hl-html_susy\/scss\/_buttons\.scss}line{font-family:\0000398}}
+.patient__btn.patient__btn-2x {
+  font-size: 20.8px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pomidorchi\/Hospital\/_PROCESS\/hl-html_susy\/scss\/_buttons\.scss}line{font-family:\00003101}}
+.patient__btn.patient__btn-2x > .iconic {
+  margin-left: 4px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pomidorchi\/Hospital\/_PROCESS\/hl-html_susy\/scss\/_buttons\.scss}line{font-family:\00003107}}
 .patient__btn_1 {
   color: #d2f4e4;
   background: #2bb673;
@@ -454,7 +462,7 @@ h6 {
   border-color: #134f32;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pomidorchi\/Hospital\/_PROCESS\/hl-html_susy\/scss\/_buttons\.scss}line{font-family:\00003102}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pomidorchi\/Hospital\/_PROCESS\/hl-html_susy\/scss\/_buttons\.scss}line{font-family:\00003111}}
 .patient__btn_2 {
   color: #ebd3eb;
   background: #964394;

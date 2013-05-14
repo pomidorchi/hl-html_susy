@@ -94,6 +94,15 @@
     margin-right: $padding / 4;
     padding: $base-font-size / 4 $padding / 3;
     text-decoration:none;
+    
+    &.patient__btn-2x {
+        font-size:$base-font-size * 1.3;
+
+        >.iconic {
+            margin-left:$padding / 8;
+        }
+    }
+    
 }
 .patient__btn_1 {
     @include patient__btn_n($patient__btn_1);
