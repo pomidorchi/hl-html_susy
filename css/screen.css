@@ -628,17 +628,17 @@ h6 {
   padding-top: 8px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pomidorchi\/Hospital\/_PROCESS\/hl-html_susy\/scss\/_form-search\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pomidorchi\/Hospital\/_PROCESS\/hl-html_susy\/scss\/_form-search\.scss}line{font-family:\0000362}}
 .form-search__item_day {
   width: 78px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pomidorchi\/Hospital\/_PROCESS\/hl-html_susy\/scss\/_form-search\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pomidorchi\/Hospital\/_PROCESS\/hl-html_susy\/scss\/_form-search\.scss}line{font-family:\0000363}}
 .form-search__item_month {
   width: 130px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pomidorchi\/Hospital\/_PROCESS\/hl-html_susy\/scss\/_form-search\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pomidorchi\/Hospital\/_PROCESS\/hl-html_susy\/scss\/_form-search\.scss}line{font-family:\0000364}}
 .form-search__item_year {
   width: 104px;
 }
@@ -859,8 +859,8 @@ h6 {
   margin-bottom: 16px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pomidorchi\/Hospital\/_PROCESS\/hl-html_susy\/scss\/_patient-card\.scss}line{font-family:\0000392}}
-.patient-card__content-block h3 + div > textarea:first-child {
-  margin-top: 16px;
+.patient-card__content-block h3 {
+  margin-bottom: 16px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pomidorchi\/Hospital\/_PROCESS\/hl-html_susy\/scss\/_patient-card\.scss}line{font-family:\0000394}}
 .patient-card__content-block .unordered-list_txt {
@@ -1009,16 +1009,15 @@ h6 {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pomidorchi\/Hospital\/_PROCESS\/hl-html_susy\/scss\/_patient-card\.scss}line{font-family:\00003189}}
 .patient-card__table {
-  margin-top: 32px;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pomidorchi\/Hospital\/_PROCESS\/hl-html_susy\/scss\/_patient-card\.scss}line{font-family:\00003192}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pomidorchi\/Hospital\/_PROCESS\/hl-html_susy\/scss\/_patient-card\.scss}line{font-family:\00003191}}
 .patient-card__table th, .patient-card__table td {
   font-size: 14px;
   padding-left: 2.09677%;
   padding-right: 2.09677%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pomidorchi\/Hospital\/_PROCESS\/hl-html_susy\/scss\/_patient-card\.scss}line{font-family:\00003197}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pomidorchi\/Hospital\/_PROCESS\/hl-html_susy\/scss\/_patient-card\.scss}line{font-family:\00003196}}
 .patient-card__table th {
   background: #dacc87;
   background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #cfb873), color-stop(100%, #e3cf92));
@@ -1036,27 +1035,27 @@ h6 {
   padding-bottom: 10.66667px;
   vertical-align: middle;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pomidorchi\/Hospital\/_PROCESS\/hl-html_susy\/scss\/_patient-card\.scss}line{font-family:\00003210}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pomidorchi\/Hospital\/_PROCESS\/hl-html_susy\/scss\/_patient-card\.scss}line{font-family:\00003209}}
 .patient-card__table td {
   background: rgba(218, 204, 135, 0.3);
   padding-top: 8px;
   padding-bottom: 8px;
   vertical-align: middle;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pomidorchi\/Hospital\/_PROCESS\/hl-html_susy\/scss\/_patient-card\.scss}line{font-family:\00003216}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pomidorchi\/Hospital\/_PROCESS\/hl-html_susy\/scss\/_patient-card\.scss}line{font-family:\00003215}}
 .patient-card__table tr:nth-child(odd) td {
   background: rgba(196, 181, 106, 0.3);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pomidorchi\/Hospital\/_PROCESS\/hl-html_susy\/scss\/_patient-card\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pomidorchi\/Hospital\/_PROCESS\/hl-html_susy\/scss\/_patient-card\.scss}line{font-family:\00003218}}
 .patient-card__table.patient-card__table-2tr tr:nth-child(even) td {
   border-top: 1px solid #ece2c6;
   border-bottom: 1px solid #ece2c6;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pomidorchi\/Hospital\/_PROCESS\/hl-html_susy\/scss\/_patient-card\.scss}line{font-family:\00003223}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pomidorchi\/Hospital\/_PROCESS\/hl-html_susy\/scss\/_patient-card\.scss}line{font-family:\00003222}}
 .patient-card__table.patient-card__table-2tr tr:nth-child(odd) td {
   padding-top: 32px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pomidorchi\/Hospital\/_PROCESS\/hl-html_susy\/scss\/_patient-card\.scss}line{font-family:\00003227}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pomidorchi\/Hospital\/_PROCESS\/hl-html_susy\/scss\/_patient-card\.scss}line{font-family:\00003226}}
 .patient-card__table .patient-card__table__total {
   background: #dacc87;
   border-top: 1px solid #ece2c6;
@@ -1064,16 +1063,16 @@ h6 {
   color: #3c3521;
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pomidorchi\/Hospital\/_PROCESS\/hl-html_susy\/scss\/_patient-card\.scss}line{font-family:\00003235}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pomidorchi\/Hospital\/_PROCESS\/hl-html_susy\/scss\/_patient-card\.scss}line{font-family:\00003234}}
 .patient-card__table .patient-card__table__note {
   width: 350px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pomidorchi\/Hospital\/_PROCESS\/hl-html_susy\/scss\/_patient-card\.scss}line{font-family:\00003238}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pomidorchi\/Hospital\/_PROCESS\/hl-html_susy\/scss\/_patient-card\.scss}line{font-family:\00003237}}
 .patient-card__table .patient-card__table__date {
   width: 300px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pomidorchi\/Hospital\/_PROCESS\/hl-html_susy\/scss\/_patient-card\.scss}line{font-family:\00003243}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/pomidorchi\/Hospital\/_PROCESS\/hl-html_susy\/scss\/_patient-card\.scss}line{font-family:\00003242}}
 .patient-card__note {
   color: #8e7e4e;
   line-height: 1;
