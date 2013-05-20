@@ -102,7 +102,9 @@
             margin-left:$padding / 8;
         }
     }
-    
+    .new_window {
+        margin-left:2px;
+    }
 }
 .patient__btn_1 {
     @include patient__btn_n($patient__btn_1);
