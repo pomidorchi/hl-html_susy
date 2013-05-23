@@ -13,9 +13,16 @@
     <nav class="header-menu">
         <ul>
             <li class="header-menu__item header-menu__item-reload">
-                <a href="#"><span class="iconic reload_alt"></span></a></li>
-            <li class="header-menu__item"><a class="active" href="index.html">Картотека</a></li>
-            <li class="header-menu__item"><a href="surveillances.html">Осмотры</a></li>
+                <a href="card__diary-item.html"><span class="iconic arrow_left"></span></a></li>
+            <li class="header-menu__item surveillances__header-description">
+                <p><strong>Обследование:</strong><br>Макроснимки</p>
+            </li>
+            <li class="header-menu__item surveillances__header-description">
+                <p><strong>Пациент:</strong><br>Балабанова Александра Мария Константиновна</p>
+            </li>
+            <li class="header-menu__item surveillances__header-description">
+                <p><strong>Начало:</strong><br>23.05.2013 в 12:23</p>
+            </li>
         </ul>
     </nav>
     <div class="header-user-menu">
@@ -26,16 +33,30 @@
     </div>
 </header>
 
-
-
 <div class="container">
-
-    <div class="latest-patients">
+    <div class="patient-card__content-block">
         <h1 style="margin-bottom:16px;">Макроснимки
-            <div style="float:right;"><a href="card.html" class="b-btn">Добавить нового пациента</a></div>
+            <div style="float:right;"><a href="card.html" class="b-btn">Добавить новый макроснимок</a></div>
         </h1>
-
     </div>
+    <section class="patient-card__content-block">
+        <article>
+            <header>
+                <h1>Снимок №00007374-332</h1>
+            </header>
+            <figure>
+                <img src="images/macro.jpg" alt="Макрофото №00007374-332">
+                <figcaption>
+                    <!--сюда должно вставляться описание из текстэрии ниже (для тех ролей, кто может только читать этот блок) -->
+                </figcaption>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </figure>
+            <footer></footer>
+        </article>
+        <aside></aside>
+
+    </section>
+
 </div>
 
 <footer class="footer">

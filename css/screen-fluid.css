@@ -1136,3 +1136,8 @@ h6 {
   height: 2em;
   font-size: 16px;
 }
+
+.surveillances__header-description {
+  color: #dccb99;
+  font-size: 14.4px;
+}
