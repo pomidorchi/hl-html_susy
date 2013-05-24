@@ -3,6 +3,34 @@
     font-size:$base-font-size * 0.9;
 }
 
-.macropho__content-block {
+.patient-card__content-block {
+}
 
+.macrophoto__main-area {
+    @include span-columns(36, 48);
+
+    .macrophoto__main-area-image {
+        width:100%;
+    }
+}
+
+.macrophoto__side-area {
+    @include span-columns(12 omega, 48);
+
+    .macrophoto__side-area-image {
+        width:100%;
+    }
+
+    .preview-images__list {
+        overflow-y:scroll;
+    }
+}
+
+.image-tools {
+    @include pie-clearfix;
+
+    .image-tools__item {
+        float:left;
+        margin-right:$padding / 2;
+    }
 }

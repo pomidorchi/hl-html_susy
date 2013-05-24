@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="css/screen-fluid.css">
 
     <link rel="stylesheet" href="css/iconic_fill.css">
+
+    <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
 </head>
 <body>
 
@@ -40,20 +43,48 @@
         </h1>
     </div>
     <section class="patient-card__content-block">
-        <article>
+        <article class="macrophoto__main-area">
             <header>
-                <h1>Снимок №00007374-332</h1>
+                <h1>
+                    Снимок №00007374-332
+                    <!--<div style="float:right;">-->
+                        <!--<ul class="zoom-tools" style="float:left;">-->
+                            <!--<li class="zoom-tools__item"><a class="pseudo-link" href="#">Новая метка</a></li>-->
+                            <!--<li class="zoom-tools__item"><a class="pseudo-link" href="#">Удалить метку</a></li>-->
+                            <!--<li class="zoom-tools__item"><a class="pseudo-link" href="#">Абрис</a></li>-->
+                            <!--<li class="zoom-tools__item"><a class="pseudo-link" href="#">Прямоугольник</a></li>-->
+                            <!--<li class="zoom-tools__item"><a class="pseudo-link" href="#">Окружность</a></li>-->
+                            <!--<li class="zoom-tools__item"><a class="pseudo-link" href="#">Цензура</a></li>-->
+                        <!--</ul>-->
+                    <!--</div>-->
+                </h1>
             </header>
             <figure>
-                <img src="images/macro.jpg" alt="Макрофото №00007374-332">
+                <img class="macrophoto__main-area-image" src="images/macro.jpg" alt="Макрофото №00007374-332">
+                <ul class="image-tools">
+                    <li class="image-tools__item"><a class="pseudo-link" href="#">Новая метка</a></li>
+                    <li class="image-tools__item"><a class="pseudo-link" href="#">Удалить метку</a></li>
+                    <li class="image-tools__item"><a class="pseudo-link" href="#">Абрис</a></li>
+                    <li class="image-tools__item"><a class="pseudo-link" href="#">Прямоугольник</a></li>
+                    <li class="image-tools__item"><a class="pseudo-link" href="#">Окружность</a></li>
+                    <li class="image-tools__item"><a class="pseudo-link" href="#">Цензура</a></li>
+                </ul>
                 <figcaption>
+                    <p>Cюда должно вставляться описание из текстэрии ниже (для тех ролей, кто может только читать этот блок) </p>
                     <!--сюда должно вставляться описание из текстэрии ниже (для тех ролей, кто может только читать этот блок) -->
                 </figcaption>
                 <textarea name="" id="" cols="30" rows="10"></textarea>
             </figure>
-            <footer></footer>
         </article>
-        <aside></aside>
+        <aside class="macrophoto__side-area">
+            <ul class="preview-images__list">
+                <li><a href="#"><img class="macrophoto__side-area-image" src="images/micro_01.jpg" alt="Микрофото 1"></a></li>
+                <li><a href="#"><img class="macrophoto__side-area-image" src="images/micro_01.jpg" alt="Микрофото 1"></a></li>
+                <li><a href="#"><img class="macrophoto__side-area-image" src="images/micro_01.jpg" alt="Микрофото 1"></a></li>
+                <li><a href="#"><img class="macrophoto__side-area-image" src="images/micro_01.jpg" alt="Микрофото 1"></a></li>
+                <li><a href="#"><img class="macrophoto__side-area-image" src="images/micro_01.jpg" alt="Микрофото 1"></a></li>
+            </ul>
+        </aside>
 
     </section>
 
