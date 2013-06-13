@@ -34,3 +34,227 @@
         margin-right:$padding / 2;
     }
 }
+
+/*START HOOKS*/
+.macrophoto__side-area {
+    overflow-y:auto;
+}
+
+.macrophoto__side-area .preview-images__list {
+overflow-y:scroll;
+}
+
+.macrophoto__main-area figure {
+width: 100%;
+position: relative;
+}
+
+/*END HOOKS*/
+
+.preview-images__list a {
+    font-size: 1em;
+    line-height: 1em;
+    display: block;
+    padding: .4em;
+    margin-bottom: .5em;
+    background: rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color:#664e06;
+}
+
+.preview-images__list a:hover {
+    background: rgba(142, 126, 78, 0.08);
+}
+
+.macrophoto__main-area .macrophoto__main-area-image {
+    width: 100%;
+    position: absolute;
+}
+
+.macrophoto__main-area .pins_overlay {
+    width: 100%;
+    position:absolute;
+    font-size: 10px;
+
+}
+.pin23 {
+    top: 120px;
+    left: 240px;
+}
+.pin4 {
+    top: 100px;
+    left: 540px;
+}
+.pin8 {
+    top: 40px;
+    left: 290px;
+}
+.pin {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    width: 2em;
+    height: 2em;
+    background: #F2EBD9;
+    border: .1em solid #CCB06A;
+    border-radius: 2em;
+    padding: .2em;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    float: left;
+}
+.pin a {
+    text-decoration: none;
+    font-size: 1.6em;
+    color: #2E231D;
+    font-weight: bold;
+    background: #CCB06A;
+    border-radius: 2em;
+    padding: .05em;
+    position: relative;
+    display: block;
+    text-align: center;
+    line-height: 1.1em;
+    text-shadow:0px .1em .1em white;
+    z-index:99;
+}
+.pin:after {
+    content:"";
+    display: block;
+    position: absolute;
+    width: 1.4em;
+    height: 1.4em;
+    background: #F2EBD9;
+    -webkit-transform: scale(1, 1) rotate(45deg);
+    top: 1.25em;
+    left: .5em;
+    z-index:98;
+}
+.pin:before {
+    content:"";
+    display: block;
+    position: absolute;
+    width: 1.4em;
+    height: 1.4em;
+    background: #CCB06A;
+    -webkit-transform: scale(1, 1) rotate(45deg);
+    top: 1.4em;
+    left: .5em;
+    z-index:97;
+}
+
+
+.pin_edit_block {
+    width: 24em;
+    height: 1px;
+    margin-top: -80px;
+    position: absolute;
+    background-image: url("img/bgMain.png");
+    background-color: rgba(188, 149, 32, 0.8);
+    z-index:996;
+    border-top: .2em solid #CCB06A;
+    border-radius: 1em;
+    box-shadow:  0 .1em .3em rgba(0,0,0,0.4);
+    z-index:95;
+}
+
+.pin_edit_block a {
+    display: block;
+    position: relative;
+    width: 15em;
+    padding: 1em 2.4em;
+    margin: 0 1em;
+    border-bottom: .1em solid #CCB06A;
+    border-top: .1em solid rgba(255,255,255,0.6);
+    font-size: 1.4em;
+    line-height: 1.4em;
+}
+.pin_edit_block a.macro { background: url(img/macro_add.png) no-repeat left;}
+.pin_edit_block a.close { background: url(img/close.png) no-repeat left;}
+.pin_edit_block .close_disabled {
+    background: url(img/close.png) no-repeat left;
+    color: #142c49;
+    text-decoration: none;
+    cursor:default;
+}
+
+
+.pin_edit_block a.close_yes, .pin_edit_block a.close_no { width: 7.5em; float:left; text-align: center; border-bottom: 0;}
+.pin_edit_block a.close_yes { color:red; margin-right: 0}
+.pin_edit_block a.close_no { color:#666; margin: 0}
+.pin_edit_block a.close_yes:hover, .pin_edit_block a.close_no:hover { background:rgba(0,0,0,0.1); }
+.pin_edit_block a:first-child { border-top: 0; }
+.pin_edit_block a:last-child {  border-bottom: 0; }
+
+
+.macrophoto__main-area-image-controls {
+    clear: both;
+}
+
+.macrophoto__main-area-image-controls a {
+    color: #142c49;
+    text-decoration: none;
+    display: block;
+    float: left;
+    padding: .5em .7em .5em 1.8em;
+    /*margin-right: 1em;*/
+    background-position-x: .5em;
+    border-radius: 0 0 .5em .5em;
+    border: .1em solid transparent;
+    border-top: 0;
+    background: no-repeat .5em;
+}
+
+.macrophoto__main-area-image-controls a:hover{
+    border-color: rgba(20, 44, 73, 0.5);
+    background-color:rgba(0,0,0,0.1);
+}
+
+.macrophoto__main-area-image-controls .add_pin {
+    background-image: url(img/add_pin.png); }
+.macrophoto__main-area-image-controls .censure {
+    background-image: url(img/censure.png); }
+    .macrophoto__main-area-image-controls .add_ellipse {
+    background-image: url(img/circle.png); }
+
+
+
+.macrophoto__main-area-image-controls .add_rectangle {
+    background-image: url(img/rectangle.png); }
+
+
+
+    .macrophoto__main-area-image-controls .add_polygon {
+    background-image: url(img/polygon.png); }
+.macrophoto__main-area-image-controls .add_ruler {
+    background-image: url(img/ruler.png); }
+
+
+
+
+    .macrophoto__main-area-image-controls .censure_save, .macrophoto__main-area-image-controls .censure_dismiss {
+        padding: .7em .5em;
+    }
+
+    .macrophoto__main-area-image-controls .censure_save { color:green;}
+    .macrophoto__main-area-image-controls .censure_dismiss { color:red;}
+
+
+
+    /*  MICROPHOTO STYLES */
+        .macrophoto__side-macrophoto {
+            padding: 0 .5em;
+/*border: .1em solid rgba(255,255,255, 0.5);*/
+/*border-radius: .5em;*/
+    /*background-color:rgba(255,255,255,0.1);*/
+}
+    .macrophoto__side-macrophoto img { width: 100%; }
+
+
+
+
+
+
+
+

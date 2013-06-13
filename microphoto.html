@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>MICRO</title>	
+	<link rel="stylesheet" href="css/screen-fluid.css">
+	<link rel="stylesheet" href="css/iconic_fill.css">
+
+</head>
+<body>
+<header class="header">
+    <nav class="header-menu">
+        <ul>
+            <li class="header-menu__item header-menu__item-reload">
+                <a href="card__diary-item.html"><span class="iconic arrow_left"></span></a></li>
+            <li class="header-menu__item surveillances__header-description">
+                <p><strong>Обследование:</strong><br>Макроснимки</p>
+            </li>
+            <li class="header-menu__item surveillances__header-description">
+                <p><strong>Пациент:</strong><br>Балабанова Александра Мария Константиновна</p>
+            </li>
+            <li class="header-menu__item surveillances__header-description">
+                <p><strong>Начало:</strong><br>23.05.2013 в 12:23</p>
+            </li>
+        </ul>
+    </nav>
+    <div class="header-user-menu">
+        <ul>
+            <li class="header-menu__item header-menu__item-reload">
+                <a href="login.html" title="Выйти из системы"><span class="iconic x_alt"></span></a></li>
+        </ul>
+    </div>
+</header>
+
+
+	<div class="container">
+		<div class="patient-card__content-block">
+	        <h1 style="margin-bottom:16px;">Макроснимки
+	            <div style="float:right;"><a href="card.html" class="b-btn">Добавить новый макроснимок</a></div>
+	        </h1>
+	    </div>
+<section class="patient-card__content-block">
+<!-- <header><h1>Описание макроснимка: обратите внимание на что-то там</h1></header> -->
+<article class="macrophoto__main-area"> 
+	
+<figure>
+
+	    <img class="macrophoto__main-area-image" src="../hl-html_susy/images/macro.jpg" alt=""> 
+	    <ul class="pins_overlay">
+			<!-- <li class="pin pin1"><a href="#">1</a></li> -->
+	    </ul>
+
+</figure>
+</article>
+<aside class="macrophoto__side-area">
+<header class="macrophoto__side-macrophoto">
+	Снимок №000074-332
+	<img src="../hl-html_susy/images/macro.jpg" alt="">
+</header>
+
+            <ul class="preview-images__list" >
+                <li class="microphoto1">
+                	<a href="#">
+                		<img class="macrophoto__side-area-image" src="http://placekitten.com/640/480" alt="Микрофото 1">
+                		Описание какой-то важной детали снимка
+                	</a>
+                </li>
+                <li class="microphoto21">
+                	<a href="#">
+                		<img class="macrophoto__side-area-image" src="http://placekitten.com/640/480" alt="Микрофото 1">
+						Рак, хули
+                	</a>
+            	</li>
+                <li class="microphoto3"><a href="#"><img class="macrophoto__side-area-image" src="http://placekitten.com/640/480" alt="Микрофото 1"></a></li>
+                <li class="microphoto4"><a href="#"><img class="macrophoto__side-area-image" src="http://placekitten.com/640/480" alt="Микрофото 1"></a></li>
+                <li>
+                	<a href="#">
+                		<img class="macrophoto__side-area-image" src="http://placekitten.com/640/480" alt="Микрофото 1">
+                		Ну а здесь просто очень длинное описание, мол, посмотрите сюда, обратите внимание на это и на то, и так далее.
+                	</a>
+                </li>
+                <li class="microphoto5"><a href="#"><img class="macrophoto__side-area-image" src="http://placekitten.com/640/480" alt="Микрофото 1"></a></li> 
+			</ul>
+        </aside>
+        <footer class="macrophoto__main-area-image-controls microphoto_controls">
+        <a href="#" class="add_figure add_ellipse" rel="ellipse">Эллипс</a>
+	    <a href="#" class="add_figure add_rectangle" rel="rect">Прямоугольник</a>
+	    <a href="#" class="add_figure add_polygon" rel="polygon">Абрис</a>
+	    <a href="#" class="add_ruler">Линейка</a>
+	    </footer>
+</section>
+
+
+
+	</div>	
+	<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.custom.min.js"></script>
+	<!--  <script type="text/javascript" src="js/jquery.scrollto.min.js"></script>-->
+	<script type="text/javascript" src="js/raphael.js"></script>
+	<script type="text/javascript" src="js/editor.js"></script>
+	<script type="text/javascript" src="js/shape.js"></script>
+	<script type="text/javascript" src="js/tracker.js"></script>
+	<script type="text/javascript" src="js/macro.js"></script>
+</body>
+</html>
