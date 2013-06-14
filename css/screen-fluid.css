@@ -1144,7 +1144,7 @@ h6 {
 }
 
 .macrophoto__main-area {
-  width: 74.83871%;
+  width: 66.45161%;
   float: left;
   margin-right: 0.64516%;
   display: inline;
@@ -1154,14 +1154,16 @@ h6 {
 }
 
 .macrophoto__side-area {
-  width: 24.51613%;
+  width: 30.80645%;
   float: right;
   margin-right: 0;
   *margin-left: -8px;
   display: inline;
+  margin-left: 2.09677%;
 }
 .macrophoto__side-area .macrophoto__side-area-image {
   width: 100%;
+  border: 1px solid #ece2c6;
 }
 .macrophoto__side-area .preview-images__list {
   overflow-y: scroll;
@@ -1195,24 +1197,39 @@ h6 {
 }
 
 /*END HOOKS*/
-.preview-images__list a {
-  font-size: 1em;
-  line-height: 1em;
-  display: block;
-  padding: .4em;
-  margin-bottom: .5em;
-  background: rgba(0, 0, 0, 0.1);
-  text-decoration: none;
-  color: #664e06;
+.preview-images__list {
+  font-size: 13.33333px;
 }
-
+.preview-images__list a {
+  display: block;
+  padding: 8px 16px;
+  margin-bottom: 16px;
+  text-decoration: none;
+  background: #d5c8a0;
+  border: 1px solid #ece2c6;
+  color: #3c3521;
+  font-weight: bold;
+}
 .preview-images__list a:hover {
-  background: rgba(142, 126, 78, 0.08);
+  background: #ead28b;
+}
+.preview-images__list a figcaption {
+  margin-bottom: 4px;
+}
+.preview-images__list .preview-image__i-checked {
+  background: rgba(42, 159, 94, 0.2);
+  border: 1px solid rgba(42, 159, 94, 0.3);
+  color: #24854f;
+}
+.preview-images__list .preview-image__i-checked:hover {
+  background: rgba(42, 159, 94, 0.3);
+  border: 1px solid rgba(42, 159, 94, 0.4);
 }
 
 .macrophoto__main-area .macrophoto__main-area-image {
   width: 100%;
   position: absolute;
+  border: 1px solid #ece2c6;
 }
 
 .macrophoto__main-area .pins_overlay {
@@ -1369,22 +1386,20 @@ h6 {
 }
 
 .macrophoto__main-area-image-controls a {
-  color: #142c49;
   text-decoration: none;
   display: block;
   float: left;
   padding: .5em .7em .5em 1.8em;
-  /*margin-right: 1em;*/
   background-position-x: .5em;
-  border-radius: 0 0 .5em .5em;
+  border-radius: 0 0 .3em .3em;
   border: .1em solid transparent;
   border-top: 0;
   background: no-repeat .5em;
 }
 
 .macrophoto__main-area-image-controls a:hover {
-  border-color: rgba(20, 44, 73, 0.5);
-  background-color: rgba(0, 0, 0, 0.1);
+  border-color: #ece2c6;
+  background-color: #d5c8a0;
 }
 
 .macrophoto__main-area-image-controls .add_pin {
