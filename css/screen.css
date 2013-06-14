@@ -263,6 +263,11 @@ em, i {
   font-style: italic;
 }
 
+.unordered-list_txt {
+  list-style: disc;
+  margin-left: 32px;
+}
+
 /* =========================================== */
 /* Layout                                      */
 /* =========================================== */
@@ -794,10 +799,6 @@ h6 {
 }
 .patient-card__content-block h3 {
   margin-bottom: 16px;
-}
-.patient-card__content-block .unordered-list_txt {
-  list-style: disc;
-  margin-left: 16px;
 }
 .patient-card__content-block .checkbox-label {
   display: block;
