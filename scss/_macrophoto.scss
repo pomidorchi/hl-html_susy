@@ -42,6 +42,10 @@
     }
 }
 
+.macrophoto-description {
+    @include span-columns(48);
+}
+
 /*START HOOKS*/
 .macrophoto__side-area {
     overflow-y:auto;

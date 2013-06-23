@@ -1,7 +1,5 @@
 .gallery-item__preview {
-    float:left;
-    margin-right:$padding / 2;
-    width:290px;
+    @include span-columns(16, 48);
 
     &:last-child {
         margin-right:0;
@@ -26,5 +24,15 @@
         li {
             padding:$padding / 16 0;
         }
+    }
+}
+
+.macrophoto-nav {
+    .gallery-item__preview {
+        @include span-columns(12, 48);
+
+    }
+    .macrophoto-nav__gap {
+        @include span-columns(23, 48);
     }
 }

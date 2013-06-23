@@ -1141,9 +1141,10 @@ h6 {
 }
 
 .gallery-item__preview {
+  width: 32.90323%;
   float: left;
-  margin-right: 16px;
-  width: 290px;
+  margin-right: 0.64516%;
+  display: inline;
 }
 .gallery-item__preview:last-child {
   margin-right: 0;
@@ -1163,4 +1164,17 @@ h6 {
 }
 .gallery-item__preview .image-preview__description li {
   padding: 2px 0;
+}
+
+.macrophoto-nav .gallery-item__preview {
+  width: 24.51613%;
+  float: left;
+  margin-right: 0.64516%;
+  display: inline;
+}
+.macrophoto-nav .macrophoto-nav__gap {
+  width: 47.58065%;
+  float: left;
+  margin-right: 0.64516%;
+  display: inline;
 }
