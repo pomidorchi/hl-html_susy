@@ -1143,6 +1143,26 @@ h6 {
   font-size: 14.4px;
 }
 
+.patient-card__content-block {
+  position: relative;
+}
+.patient-card__content-block .macrophoto__side-area__collapse {
+  position: absolute;
+  top: 96px;
+  right: 0;
+  display: block;
+  width: 32px;
+  text-align: center;
+  text-decoration: none;
+  color: #cec4a7;
+  background: #4c442a;
+  font-size: 32px;
+}
+.patient-card__content-block .macrophoto__side-area__collapse:hover {
+  color: #f3f0e8;
+  background: #8e7e4e;
+}
+
 .macrophoto__main-area {
   width: 66.45161%;
   float: left;
@@ -1160,6 +1180,7 @@ h6 {
   *margin-left: -8px;
   display: inline;
   margin-left: 2.09677%;
+  border: 1px solid #8e7e4e;
 }
 .macrophoto__side-area .macrophoto__side-area-image {
   width: 100%;
