@@ -1449,3 +1449,28 @@ h6 {
 .macrophoto__side-macrophoto img {
   width: 100%;
 }
+
+.gallery-item__preview {
+  float: left;
+  margin-right: 16px;
+  width: 290px;
+}
+.gallery-item__preview:last-child {
+  margin-right: 0;
+}
+.gallery-item__preview .image-preview {
+  width: 100%;
+  padding: 8px;
+  background: #d5c8a0;
+  border: 1px solid #ece2c6;
+}
+.gallery-item__preview .image-preview:hover {
+  background: #ead28b;
+}
+.gallery-item__preview .image-preview__description {
+  margin: 4px 8px;
+  font-size: 95%;
+}
+.gallery-item__preview .image-preview__description li {
+  padding: 2px 0;
+}
