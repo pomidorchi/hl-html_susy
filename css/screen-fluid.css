@@ -1088,6 +1088,38 @@ h6 {
   color: #3c3521;
   font-weight: bold;
 }
+.latest-surveillances select {
+  background: #dccb99;
+  border: 1px solid #766533;
+  background-image: linear-gradient(to bottom, #cfb873, #e3cf92);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: whitesmoke 0 1px, #c9ae60 0px 0px 6px 2px inset;
+  -moz-box-shadow: whitesmoke 0 1px, #c9ae60 0px 0px 6px 2px inset;
+  box-shadow: whitesmoke 0 1px, #c9ae60 0px 0px 6px 2px inset;
+  color: #3c3521;
+}
+.latest-surveillances .tablecell-checkbox,
+.latest-surveillances .patient__visit {
+  padding: 0 8px;
+}
+.latest-surveillances td.action {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.latest-surveillances td.action .action-item__counter {
+  display: block;
+  margin-left: 4px;
+  margin-right: 4px;
+  padding: 16px 0;
+}
+.latest-surveillances th.action {
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: left;
+}
 
 .surveillances__email {
   color: #8e7e4e;
@@ -1107,20 +1139,44 @@ h6 {
 }
 .data-filters li {
   display: inline-block;
-  border-right: 1px solid #8e7e4e;
-  padding-left: 8px;
-  padding-right: 8px;
-}
-.data-filters li:first-child, .data-filters li:last-child {
-  border-right: none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  padding: 4px;
+  margin-left: 4px;
+  margin-right: 4px;
+  font-size: 13.33333px;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
 }
 .data-filters li:first-child {
   font-weight: bold;
   padding-left: 0;
 }
-.data-filters li.active a {
+.data-filters li:first-child:hover {
+  background: none;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
   font-weight: bold;
-  border-bottom: none;
+}
+.data-filters li.active {
+  background: rgba(59, 59, 59, 0.1);
+  border-top: 1px solid #dddbd6;
+  border-bottom: 1px solid #979282;
+  font-weight: bold;
+}
+.data-filters li.active.active:hover {
+  background: rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  cursor: hand;
+}
+.data-filters li:hover {
+  background: rgba(59, 59, 59, 0.1);
+  border-top: 1px solid #dddbd6;
+  border-bottom: 1px solid #979282;
+  font-weight: normal;
 }
 .data-filters select {
   background: #dccb99;
@@ -1136,6 +1192,78 @@ h6 {
   font-size: 18px;
   height: 2em;
   font-size: 16px;
+}
+
+.tablecell-checkbox {
+  width: 32px;
+}
+
+.action-item__link {
+  text-decoration: none;
+}
+.action-item__link .action-item__counter {
+  background: #8e7e4e;
+  padding: 2px 4px;
+  margin-right: 4px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background: #dac587;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cfb873), color-stop(100%, #e3cf92));
+  background-image: -webkit-linear-gradient(top, #cfb873, #e3cf92);
+  background-image: -moz-linear-gradient(top, #cfb873, #e3cf92);
+  background-image: -o-linear-gradient(top, #cfb873, #e3cf92);
+  background-image: linear-gradient(top, #cfb873, #e3cf92);
+  border-top: 1px solid #ece2c6;
+  border-bottom: 1px solid #c5a954;
+  color: #3c3521;
+  font-weight: bold;
+  font-size: 13.33333px;
+}
+.action-item__link .action-item__counter:hover {
+  background: #ceb25f;
+  border-top: 1px solid #ece2c6;
+  border-bottom: 1px solid #c5a954;
+  color: #3c3521;
+}
+.action-item__link.status-set .action-item__counter {
+  background: #80c46a;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #62b347), color-stop(100%, #80c46a));
+  background-image: -webkit-linear-gradient(top, #62b347, #80c46a);
+  background-image: -moz-linear-gradient(top, #62b347, #80c46a);
+  background-image: -o-linear-gradient(top, #62b347, #80c46a);
+  background-image: linear-gradient(top, #62b347, #80c46a);
+  border-top: 1px solid #daf2dc;
+  border-bottom: 1px solid #3bac44;
+  color: #366327;
+}
+.action-item__link.status-set .action-item__counter:hover {
+  background: #47b350;
+  border-top: 1px solid #d0ecc6;
+  border-bottom: 1px solid #71c554;
+  color: #3c3521;
+}
+.action-item__link.status-set .action-item__counter.action-item__counter-canceled {
+  background: #ce5f7b;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c03b5c), color-stop(100%, #ce5f7b));
+  background-image: -webkit-linear-gradient(top, #c03b5c, #ce5f7b);
+  background-image: -moz-linear-gradient(top, #c03b5c, #ce5f7b);
+  background-image: -o-linear-gradient(top, #c03b5c, #ce5f7b);
+  background-image: linear-gradient(top, #c03b5c, #ce5f7b);
+  border-top: 1px solid #f2dae0;
+  border-bottom: 1px solid #ac3b57;
+  color: #6a2033;
+}
+.action-item__link.status-set .action-item__counter.action-item__counter-canceled:hover {
+  background: #b34762;
+  border-top: 1px solid #ecc6d0;
+  border-bottom: 1px solid #c55471;
+  color: #3c3521;
+}
+.action-item__link .action-item__txt {
+  border-bottom: 1px dotted;
 }
 
 .surveillances__header-description {

@@ -62,348 +62,106 @@
 
     <div class="surveillances">
 
-    <h1 style="margin-bottom:16px;">Результаты осмотров </h1>
+    <h1 style="margin-bottom:16px;">Визиты</h1>
+
+    <!---->
+    <!--<p class="form-search__note">Можно выбрать несколько фильтров одновременно. Повторное нажатие на фильтр отменяет его действие. «Все» — сбрасывает фильтры.</p>-->
+    <!---->
 
     <ul class="data-filters">
-        <li>Показать осмотры:</li>
-        <li class="active"><a href="#" class="pseudo-link">Все</a></li>
-        <li><a href="#" class="pseudo-link">Не просмотренные</a></li>
-        <li><a href="#" class="pseudo-link">Не скачанные</a></li>
-        <li><a href="#" class="pseudo-link">Не отправленные</a></li>
+        <li>Показать визиты:</li>
+        <li><a href="#" class="action-item__link"><span class="action-item__txt">Все</span></a></li>
+        <li><a href="#" class="action-item__link"><span class="action-item__counter">1/6</span><span class="action-item__txt">Новые</span></a></li>
+        <li><a href="#" class="action-item__link"><span class="action-item__counter">2/6</span><span class="action-item__txt">В работе</span></a></li>
+        <li class="active"><a href="#" class="action-item__link"><span class="action-item__counter">3/6</span><span class="action-item__txt">Завершённые</span></a></li>
+        <li class="active"><a href="#" class="action-item__link"><span class="action-item__counter">4/6</span><span class="action-item__txt">Не просмотренные</span></a></li>
+        <li><a href="#" class="action-item__link"><span class="action-item__counter">5/6</span><span class="action-item__txt">Не скачанные</span></a></li>
+        <li><a href="#" class="action-item__link"><span class="action-item__counter">6/6</span><span class="action-item__txt">Не отправленные</span></a></li>
+        <li><a href="#" class="action-item__link"><span class="action-item__counter">X</span><span class="action-item__txt">Отмененные</span></a></li>
     </ul>
 
         <table class="latest-surveillances">
             <tr>
+                <th class="tablecell-checkbox"></th>
                 <th class="patient__visit">Визит</th>
                 <th class="patient__id">ID</th>
                 <th class="patient__fio">ФИО</th>
                 <th class="patient__born">Дата рождения</th>
-                <th colspan="3" class="patient__surveys">Действия</th>
+                <th>
+                    <select name="" id="" class="">
+                        <option value="">Все эксперты</option>
+                        <option value="">Иванов И. И.</option>
+                        <option value="">Петров П. П.</option>
+                        <option value="">Джубайтыков Д. Д.</option>
+                    </select>
+                </th>
+                <th class="patient__born">Конечная дата</th>
+                <th class="">Приоритет</th>
+                <th colspan="7" class="action">
+                    <select name="" id="" class="">
+                        <option value="">Действия с выделенными визитами:</option>
+                        <option value="">[1/6] Установить статус: Новый</option>
+                        <option value="">[2/6] Установить статус: В работе</option>
+                        <option value="">[3/6] Установить статус: Завершён</option>
+                        <option value="">[4/6] Установить статус: Просмотрен</option>
+                        <option value="">[5/6] Скачать PDF</option>
+                        <option value="">[6/6] Отправить пациенту</option>
+                        <option value="">[X] Отменить </option>
+                        <option value="">Отправить в архив</option>
+                    </select>
+                </th>
             </tr>
 
             <tr>
+                <td class="tablecell-checkbox"><input type="checkbox"></td>
                 <td class="patient__visit">03.04.2013 <br><span class="unwrap-context">в 18:32</span></td>
                 <td class="patient__id">00007374</td>
                 <td class="patient__fio">
                     <a href="card__diary-item.html">Балабанова Александра Мария Константиновна</a>
                     <p class="surveillances__email">
-                        <a href="mailto:pomidorchi@gmail.com?subject=Результаты осмотра Макроснимки (проведён 03.04.2013 в 18:32)">balabanova@gmail.com</a>
+                        <a href="macrophoto.html">Задание<span style="margin-left:2px;" class="iconic new_window"></span></a>
                     </p>
                 </td>
                 <td class="patient__born">13.10.2009</td>
-                <td class="actions">
-                    <div class="action-item">
-                        <span class="iconic eye action-item__ico"></span>
-                        <a href="#" class="action-item__main-link">Пометить<br>просмотренным</a>
-                    </div>
-                </td>
-                <td class="actions">
-                    <div class="action-item">
-                        <span class="iconic arrow_down_alt1 action-item__ico"></span>
-                        <a href="#" class="action-item__main-link">Скачать<br>PDF</a>
-                    </div>
-                </td>
-                <td class="actions">
-                    <div class="action-item">
-                        <span class="iconic curved_arrow action-item__ico"></span>
-                        <a href="#" class="action-item__main-link">Отправить<br>пациенту</a>
-                    </div>
-                </td>
+                <td>Джубайтыков Д. Д.</td>
+                <td class="patient__born">23.10.2013</td>
+                <td class="">Высокий</td>
+                <td class="action"><a href="#" class="action-item__link status-set" title="[1/6] Новый"><span class="action-item__counter">1/6</span></a></td>
+                <td class="action"><a href="#" class="action-item__link status-set" title="[2/6] В работе"><span class="action-item__counter">2/6</span></a></td>
+                <td class="action"><a href="#" class="action-item__link status-set" title="[3/6] Завершён"><span class="action-item__counter">3/6</span></a></td>
+                <td class="action"><a href="#" class="action-item__link status-set" title="[4/6] Просмотрен"><span class="action-item__counter">4/6</span></a></td>
+                <td class="action"><a href="#" class="action-item__link status-set" title="[5/6] Cкачан"><span class="action-item__counter">5/6</span></a></td>
+                <td class="action"><a href="#" class="action-item__link status-set" title="[6/6] Отправлен пациенту"><span class="action-item__counter">6/6</span></a></td>
+                <td class="action"><a href="#" class="action-item__link status-set" title="[X] Отменен"><span class="action-item__counter action-item__counter-canceled">X</span></a></td>
             </tr>
 
             <tr>
+                <td class="tablecell-checkbox"><input type="checkbox" checked></td>
                 <td class="patient__visit">03.04.2013 <br><span class="unwrap-context">в 18:32</span></td>
                 <td class="patient__id">00007374</td>
                 <td class="patient__fio">
                     <a href="card__diary-item.html">Балабанова Александра Мария Константиновна</a>
                     <p class="surveillances__email">
-                        <a href="mailto:pomidorchi@gmail.com?subject=Результаты осмотра Макроснимки (проведён 03.04.2013 в 18:32)">balabanova@gmail.com</a>
+                        <a href="macrophoto.html">Задание<span style="margin-left:2px;" class="iconic new_window"></span></a>
                     </p>
                 </td>
                 <td class="patient__born">13.10.2009</td>
-                <td class="actions">
-                    <div class="action-item action-item__realized">
-                        <span class="iconic eye action-item__ico"></span>
-                        <a href="#" class="action-item__main-link">Просмотрен</a>
-                        <p class="action-item__sec-link-container"><a href="#" class="action-item__sec-link">Отменить</a></p>
-                    </div>
-                </td>
-                <td class="actions">
-                    <div class="action-item action-item__realized">
-                        <span class="iconic arrow_down_alt1 action-item__ico"></span>
-                        <a href="#" class="action-item__main-link">Скачан</a>
-                        <p class="action-item__sec-link-container"><a href="#" class="action-item__sec-link">Скачать ещё раз</a></p>
-                    </div>
-                </td>
-                <td class="actions">
-                    <div class="action-item action-item__realized">
-                        <span class="iconic curved_arrow action-item__ico"></span>
-                        <a href="#" class="action-item__main-link">Отправлен</a>
-                        <p class="action-item__sec-link-container"><a href="#" class="action-item__sec-link">Отправить повторно</a></p>
-                    </div>
-                </td>
+                <td>Иванов И. И.</td>
+                <td class="patient__born">23.10.2013</td>
+                <td class="">Высокий</td>
+                <td class="action"><a href="#" class="action-item__link" title="[1/6] Установить статус: Новый"><span class="action-item__counter">1/6</span></a></td>
+                <td class="action"><a href="#" class="action-item__link" title="[2/6] Установить статус: В работе"><span class="action-item__counter">2/6</span></a></td>
+                <td class="action"><a href="#" class="action-item__link" title="[3/6] Установить статус: Завершён"><span class="action-item__counter">3/6</span></a></td>
+                <td class="action"><a href="#" class="action-item__link" title="[4/6] Установить статус: Просмотрен"><span class="action-item__counter">4/6</span></a></td>
+                <td class="action"><a href="#" class="action-item__link" title="[5/6] Скачать PDF"><span class="action-item__counter">5/6</span></a></td>
+                <td class="action"><a href="#" class="action-item__link" title="[6/6] Отправить пациенту"><span class="action-item__counter">6/6</span></a></td>
+                <td class="action"><a href="#" class="action-item__link" title="[X] Отменен"><span class="action-item__counter">X</span></a></td>
             </tr>
 
-            <tr>
-                <td class="patient__visit">03.04.2013 <br><span class="unwrap-context">в 18:32</span></td>
-                <td class="patient__id">00007374</td>
-                <td class="patient__fio">
-                    <a href="card__diary-item.html">Балабанова Александра Мария Константиновна</a>
-                    <p class="surveillances__email">
-                        <a href="mailto:pomidorchi@gmail.com?subject=Результаты осмотра Макроснимки (проведён 03.04.2013 в 18:32)">balabanova@gmail.com</a>
-                    </p>
-                </td>
-                <td class="patient__born">13.10.2009</td>
-                <td class="actions">
-                    <div class="action-item">
-                        <span class="iconic eye action-item__ico"></span>
-                        <a href="#" class="action-item__main-link">Пометить<br>просмотренным</a>
-                    </div>
-                </td>
-                <td class="actions">
-                    <div class="action-item">
-                        <span class="iconic arrow_down_alt1 action-item__ico"></span>
-                        <a href="#" class="action-item__main-link">Скачать<br>PDF</a>
-                    </div>
-                </td>
-                <td class="actions">
-                    <div class="action-item">
-                        <span class="iconic curved_arrow action-item__ico"></span>
-                        <a href="#" class="action-item__main-link">Отправить<br>пациенту</a>
-                    </div>
-                </td>
-            </tr>
+
 
             <tr>
-                <td class="patient__visit">03.04.2013 <br><span class="unwrap-context">в 18:32</span></td>
-                <td class="patient__id">00007374</td>
-                <td class="patient__fio">
-                    <a href="card__diary-item.html">Балабанова Александра Мария Константиновна</a>
-                    <p class="surveillances__email">
-                        <a href="mailto:pomidorchi@gmail.com?subject=Результаты осмотра Макроснимки (проведён 03.04.2013 в 18:32)">balabanova@gmail.com</a>
-                    </p>
-                </td>
-                <td class="patient__born">13.10.2009</td>
-                <td class="actions">
-                    <div class="action-item action-item__realized">
-                        <span class="iconic eye action-item__ico"></span>
-                        <a href="#" class="action-item__main-link">Просмотрен</a>
-                        <p class="action-item__sec-link-container"><a href="#" class="action-item__sec-link">Отменить</a></p>
-                    </div>
-                </td>
-                <td class="actions">
-                    <div class="action-item action-item__realized">
-                        <span class="iconic arrow_down_alt1 action-item__ico"></span>
-                        <a href="#" class="action-item__main-link">Скачан</a>
-                        <p class="action-item__sec-link-container"><a href="#" class="action-item__sec-link">Скачать ещё раз</a></p>
-                    </div>
-                </td>
-                <td class="actions">
-                    <div class="action-item action-item__realized">
-                        <span class="iconic curved_arrow action-item__ico"></span>
-                        <a href="#" class="action-item__main-link">Отправлен</a>
-                        <p class="action-item__sec-link-container"><a href="#" class="action-item__sec-link">Отправить повторно</a></p>
-                    </div>
-                </td>
-            </tr>
-
-            <tr>
-                <td class="patient__visit">03.04.2013 <br><span class="unwrap-context">в 18:32</span></td>
-                <td class="patient__id">00007374</td>
-                <td class="patient__fio">
-                    <a href="card__diary-item.html">Балабанова Александра Мария Константиновна</a>
-                    <p class="surveillances__email">
-                        <a href="mailto:pomidorchi@gmail.com?subject=Результаты осмотра Макроснимки (проведён 03.04.2013 в 18:32)">balabanova@gmail.com</a>
-                    </p>
-                </td>
-                <td class="patient__born">13.10.2009</td>
-                
-
-                <td class="actions">
-                    <div class="action-item">
-                        <span class="iconic eye action-item__ico"></span>
-                        <a href="#" class="action-item__main-link">Пометить<br>просмотренным</a>
-                    </div>
-                </td>
-                <td class="actions">
-                    <div class="action-item">
-                        <span class="iconic arrow_down_alt1 action-item__ico"></span>
-                        <a href="#" class="action-item__main-link">Скачать<br>PDF</a>
-                    </div>
-                </td>
-                <td class="actions">
-                    <div class="action-item">
-                        <span class="iconic curved_arrow action-item__ico"></span>
-                        <a href="#" class="action-item__main-link">Отправить<br>пациенту</a>
-                    </div>
-                </td>
-            </tr>
-
-            <tr>
-                <td class="patient__visit">03.04.2013 <br><span class="unwrap-context">в 18:32</span></td>
-                <td class="patient__id">00007374</td>
-                <td class="patient__fio">
-                    <a href="card__diary-item.html">Балабанова Александра Мария Константиновна</a>
-                    <p class="surveillances__email">
-                        <a href="mailto:pomidorchi@gmail.com?subject=Результаты осмотра Макроснимки (проведён 03.04.2013 в 18:32)">balabanova@gmail.com</a>
-                    </p>
-                </td>
-                <td class="patient__born">13.10.2009</td>
-                <td class="actions">
-                    <div class="action-item action-item__realized">
-                        <span class="iconic eye action-item__ico"></span>
-                        <a href="#" class="action-item__main-link">Просмотрен</a>
-                        <p class="action-item__sec-link-container"><a href="#" class="action-item__sec-link">Отменить</a></p>
-                    </div>
-                </td>
-                <td class="actions">
-                    <div class="action-item action-item__realized">
-                        <span class="iconic arrow_down_alt1 action-item__ico"></span>
-                        <a href="#" class="action-item__main-link">Скачан</a>
-                        <p class="action-item__sec-link-container"><a href="#" class="action-item__sec-link">Скачать ещё раз</a></p>
-                    </div>
-                </td>
-                <td class="actions">
-                    <div class="action-item action-item__realized">
-                        <span class="iconic curved_arrow action-item__ico"></span>
-                        <a href="#" class="action-item__main-link">Отправлен</a>
-                        <p class="action-item__sec-link-container"><a href="#" class="action-item__sec-link">Отправить повторно</a></p>
-                    </div>
-                </td>
-            </tr>
-
-            <tr>
-                <td class="patient__visit">03.04.2013 <br><span class="unwrap-context">в 18:32</span></td>
-                <td class="patient__id">00007374</td>
-                <td class="patient__fio">
-                    <a href="card__diary-item.html">Балабанова Александра Мария Константиновна</a>
-                    <p class="surveillances__email">
-                        <a href="mailto:pomidorchi@gmail.com?subject=Результаты осмотра Макроснимки (проведён 03.04.2013 в 18:32)">balabanova@gmail.com</a>
-                    </p>
-                </td>
-                <td class="patient__born">13.10.2009</td>
-                
-
-                <td class="actions">
-                    <div class="action-item">
-                        <span class="iconic eye action-item__ico"></span>
-                        <a href="#" class="action-item__main-link">Пометить<br>просмотренным</a>
-                    </div>
-                </td>
-                <td class="actions">
-                    <div class="action-item">
-                        <span class="iconic arrow_down_alt1 action-item__ico"></span>
-                        <a href="#" class="action-item__main-link">Скачать<br>PDF</a>
-                    </div>
-                </td>
-                <td class="actions">
-                    <div class="action-item">
-                        <span class="iconic curved_arrow action-item__ico"></span>
-                        <a href="#" class="action-item__main-link">Отправить<br>пациенту</a>
-                    </div>
-                </td>
-            </tr>
-
-            <tr>
-                <td class="patient__visit">03.04.2013 <br><span class="unwrap-context">в 18:32</span></td>
-                <td class="patient__id">00007374</td>
-                <td class="patient__fio">
-                    <a href="card__diary-item.html">Балабанова Александра Мария Константиновна</a>
-                    <p class="surveillances__email">
-                        <a href="mailto:pomidorchi@gmail.com?subject=Результаты осмотра Макроснимки (проведён 03.04.2013 в 18:32)">balabanova@gmail.com</a>
-                    </p>
-                </td>
-                <td class="patient__born">13.10.2009</td>
-                <td class="actions">
-                    <div class="action-item action-item__realized">
-                        <span class="iconic eye action-item__ico"></span>
-                        <a href="#" class="action-item__main-link">Просмотрен</a>
-                        <p class="action-item__sec-link-container"><a href="#" class="action-item__sec-link">Отменить</a></p>
-                    </div>
-                </td>
-                <td class="actions">
-                    <div class="action-item action-item__realized">
-                        <span class="iconic arrow_down_alt1 action-item__ico"></span>
-                        <a href="#" class="action-item__main-link">Скачан</a>
-                        <p class="action-item__sec-link-container"><a href="#" class="action-item__sec-link">Скачать ещё раз</a></p>
-                    </div>
-                </td>
-                <td class="actions">
-                    <div class="action-item action-item__realized">
-                        <span class="iconic curved_arrow action-item__ico"></span>
-                        <a href="#" class="action-item__main-link">Отправлен</a>
-                        <p class="action-item__sec-link-container"><a href="#" class="action-item__sec-link">Отправить повторно</a></p>
-                    </div>
-                </td>
-            </tr>
-
-            <tr>
-                <td class="patient__visit">03.04.2013 <br><span class="unwrap-context">в 18:32</span></td>
-                <td class="patient__id">00007374</td>
-                <td class="patient__fio">
-                    <a href="card__diary-item.html">Балабанова Александра Мария Константиновна</a>
-                    <p class="surveillances__email">
-                        <a href="mailto:pomidorchi@gmail.com?subject=Результаты осмотра Макроснимки (проведён 03.04.2013 в 18:32)">balabanova@gmail.com</a>
-                    </p>
-                </td>
-                <td class="patient__born">13.10.2009</td>
-                
-
-                <td class="actions">
-                    <div class="action-item">
-                        <span class="iconic eye action-item__ico"></span>
-                        <a href="#" class="action-item__main-link">Пометить<br>просмотренным</a>
-                    </div>
-                </td>
-                <td class="actions">
-                    <div class="action-item">
-                        <span class="iconic arrow_down_alt1 action-item__ico"></span>
-                        <a href="#" class="action-item__main-link">Скачать<br>PDF</a>
-                    </div>
-                </td>
-                <td class="actions">
-                    <div class="action-item">
-                        <span class="iconic curved_arrow action-item__ico"></span>
-                        <a href="#" class="action-item__main-link">Отправить<br>пациенту</a>
-                    </div>
-                </td>
-            </tr>
-
-            <tr>
-                <td class="patient__visit">03.04.2013 <br><span class="unwrap-context">в 18:32</span></td>
-                <td class="patient__id">00007374</td>
-                <td class="patient__fio">
-                    <a href="card__diary-item.html">Балабанова Александра Мария Константиновна</a>
-                    <p class="surveillances__email">
-                        <a href="mailto:pomidorchi@gmail.com?subject=Результаты осмотра Макроснимки (проведён 03.04.2013 в 18:32)">balabanova@gmail.com</a>
-                    </p>
-                </td>
-                <td class="patient__born">13.10.2009</td>
-                <td class="actions">
-                    <div class="action-item action-item__realized">
-                        <span class="iconic eye action-item__ico"></span>
-                        <a href="#" class="action-item__main-link">Просмотрен</a>
-                        <p class="action-item__sec-link-container"><a href="#" class="action-item__sec-link">Отменить</a></p>
-                    </div>
-                </td>
-                <td class="actions">
-                    <div class="action-item action-item__realized">
-                        <span class="iconic arrow_down_alt1 action-item__ico"></span>
-                        <a href="#" class="action-item__main-link">Скачан</a>
-                        <p class="action-item__sec-link-container"><a href="#" class="action-item__sec-link">Скачать ещё раз</a></p>
-                    </div>
-                </td>
-                <td class="actions">
-                    <div class="action-item action-item__realized">
-                        <span class="iconic curved_arrow action-item__ico"></span>
-                        <a href="#" class="action-item__main-link">Отправлен</a>
-                        <p class="action-item__sec-link-container"><a href="#" class="action-item__sec-link">Отправить повторно</a></p>
-                    </div>
-                </td>
-            </tr>
-
-            <tr>
-                <td colspan="7" class="surveillances__total">Отображено 10 последних осмотров</td>
+                <td colspan="15" class="surveillances__total">Отображено 10 последних осмотров</td>
             </tr>
         </table>
     </div>
