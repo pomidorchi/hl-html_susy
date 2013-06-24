@@ -1468,14 +1468,31 @@ h6 {
 
 /*  MICROPHOTO STYLES */
 .macrophoto__side-macrophoto {
-  padding: 0 .5em;
   /*border: .1em solid rgba(255,255,255, 0.5);*/
   /*border-radius: .5em;*/
   /*background-color:rgba(255,255,255,0.1);*/
 }
 
+.macrophoto__side-macrophoto {
+  text-align: center;
+}
 .macrophoto__side-macrophoto img {
   width: 100%;
+  border: 1px solid #ece2c6;
+}
+.macrophoto__side-macrophoto a {
+  display: block;
+  padding: 8px 16px;
+  margin-bottom: 16px;
+  text-decoration: none;
+  color: #f3f0e8;
+  background: #aa9965;
+}
+.macrophoto__side-macrophoto a:hover {
+  background: #bcaf86;
+}
+.macrophoto__side-macrophoto a figcaption {
+  margin-bottom: 4px;
 }
 
 .gallery-item__preview {
