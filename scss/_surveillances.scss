@@ -49,12 +49,37 @@
             margin-left:$padding / 8;
             margin-right:$padding / 8;
             padding:$padding / 2 0;
+
+        }
+        &.action__selected {
+            background:darken(rgba($base-color, 0.5), 20%) !important;
         }
     }
     th.action {
         padding-left:$padding / 4;
         padding-right:$padding / 4;
         text-align:left;
+    }
+
+    .action-window {
+        background:darken(rgba($base-color, 0.2), 20%) !important;
+        border-top: 1px solid darken(rgba($base-color, 0.3), 20%) !important;
+        border-bottom: 1px solid darken(rgba($base-color, 0.3), 20%) !important;
+        margin:0 !important;
+        padding:$padding / 4;
+
+        .action-window__content {
+            //background:desaturate(darken(rgba($base-color, 0.1), 10%), 30%) !important;
+            padding:$padding / 4;
+            text-align:center;
+
+            h3 {
+                margin-bottom:$padding /2;
+            }
+            .action-buttons {
+                margin-top:$padding / 2;
+            }
+        }
     }
 }
 
