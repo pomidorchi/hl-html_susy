@@ -117,10 +117,17 @@
     }
 }
 
-.macrophoto__main-area .macrophoto__main-area-image {
-    width:100%;
-    position:absolute;
-    border:1px solid saturate(lighten($base-color, 42), 20);
+.macrophoto__main-area {
+
+    &.macrophoto__main-area__full {
+        @include span-columns(48 omega, 48);
+    }
+
+    .macrophoto__main-area-image {
+        width:100%;
+        position:absolute;
+        border:1px solid saturate(lighten($base-color, 42), 20);
+    }
 }
 
 .macrophoto__main-area .pins_overlay {
