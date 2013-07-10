@@ -1,6 +1,6 @@
 $(function(){
   $( ".pin" ).draggable({ containment: ".macrophoto__main-area-image" });
-  var pin_edit_block = "<div class='pin_edit_block'><a href='microphoto.html' class='macro'>Сделать микроснимок</a><a href='#' class='close'>Удалить метку</a></div>";
+  var pin_edit_block = "<div class='pin_edit_block'><a href='microphoto-new.html' class='macro'>Сделать микроснимок</a><a href='#' class='close'>Удалить метку</a></div>";
 
 $('body').on("click", ".pin", function(){
     var this_position = $(this).position();
